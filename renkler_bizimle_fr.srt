@@ -1,0 +1,223 @@
+1
+00:00:07,600 --> 00:00:11,080
+Le toit rouge sourit.
+
+2
+00:00:11,360 --> 00:00:14,860
+La porte orange s’ouvre.
+
+3
+00:00:15,260 --> 00:00:19,480
+La fleur jaune est comme le soleil.
+
+4
+00:00:19,180 --> 00:00:23,480
+La lumière brille dans notre jardin.
+
+5
+00:00:23,980 --> 00:00:27,800
+Fais un signe au rouge.
+
+6
+00:00:28,140 --> 00:00:31,700
+Souris à l’orange.
+
+7
+00:00:31,400 --> 00:00:35,920
+La fleur jaune nous regarde.
+
+8
+00:00:35,840 --> 00:00:39,480
+Trois couleurs nous apportent de la joie.
+
+9
+00:00:47,319 --> 00:00:51,379
+Les couleurs sont toutes côte à côte.
+
+10
+00:00:51,079 --> 00:00:55,319
+Choisis une couleur et dis-la-moi.
+
+11
+00:00:55,019 --> 00:00:59,539
+Regarde, montre et dis-le aussi.
+
+12
+00:00:59,239 --> 00:01:03,619
+Voilà notre monde plein de couleurs.
+
+13
+00:01:03,319 --> 00:01:07,519
+Ela chante, Mavi vole.
+
+14
+00:01:07,219 --> 00:01:11,679
+Le petit corbeau ouvre ses ailes.
+
+15
+00:01:11,379 --> 00:01:15,499
+Viens avec nous, dis une couleur.
+
+16
+00:01:15,639 --> 00:01:19,539
+Allez, tous ensemble maintenant !
+
+17
+00:01:26,787 --> 00:01:30,207
+Un nuage voyage dans le ciel bleu.
+
+18
+00:01:29,907 --> 00:01:34,347
+Une vague sourit sur le lac bleu.
+
+19
+00:01:34,047 --> 00:01:39,327
+L’herbe verte recouvre le sol.
+
+20
+00:01:39,027 --> 00:01:43,447
+La feuille verte se tourne vers nous.
+
+21
+00:01:43,147 --> 00:01:46,027
+Le nuage blanc est comme du coton.
+
+22
+00:01:45,727 --> 00:01:50,007
+Il flotte maintenant dans le ciel.
+
+23
+00:01:49,707 --> 00:01:55,527
+Le bleu, le vert et le blanc.
+
+24
+00:01:55,227 --> 00:01:59,327
+Chacun porte une joie différente.
+
+25
+00:02:06,956 --> 00:02:11,016
+Les couleurs sont toutes côte à côte.
+
+26
+00:02:10,716 --> 00:02:14,956
+Choisis une couleur et dis-la-moi.
+
+27
+00:02:14,656 --> 00:02:19,176
+Regarde, montre et dis-le aussi.
+
+28
+00:02:18,876 --> 00:02:23,256
+Voilà notre monde plein de couleurs.
+
+29
+00:02:22,956 --> 00:02:27,156
+Ela chante, Mavi vole.
+
+30
+00:02:26,856 --> 00:02:31,316
+Le petit corbeau ouvre ses ailes.
+
+31
+00:02:31,016 --> 00:02:35,136
+Viens avec nous, dis une couleur.
+
+32
+00:02:35,276 --> 00:02:39,176
+Allez, tous ensemble maintenant !
+
+33
+00:02:46,635 --> 00:02:50,735
+La fleur rose nous sourit.
+
+34
+00:02:50,735 --> 00:02:54,535
+La fleur violette l’écoute.
+
+35
+00:02:54,955 --> 00:02:58,655
+Le corbeau noir se pose sur une branche.
+
+36
+00:02:58,895 --> 00:03:03,075
+Il ouvre ses ailes, puis regarde.
+
+37
+00:03:03,095 --> 00:03:07,095
+Le rose, le violet et le noir.
+
+38
+00:03:06,995 --> 00:03:10,715
+Ajoute une couleur à ton dessin.
+
+39
+00:03:10,415 --> 00:03:14,855
+Dis-nous quelle est cette couleur.
+
+40
+00:03:14,975 --> 00:03:19,175
+Avec les couleurs, le monde est beau.
+
+41
+00:03:26,553 --> 00:03:29,613
+Où trouve-t-on du rouge ?
+
+42
+00:03:30,373 --> 00:03:33,853
+Il brille sur le toit de la maison.
+
+43
+00:03:34,493 --> 00:03:37,873
+Où trouve-t-on du vert ?
+
+44
+00:03:38,193 --> 00:03:41,853
+Dans l’herbe et les feuilles.
+
+45
+00:03:41,553 --> 00:03:45,593
+Qui est noir, là-bas ?
+
+46
+00:03:46,373 --> 00:03:49,293
+Le corbeau sur la branche.
+
+47
+00:03:50,233 --> 00:03:54,653
+Quelle est ta couleur préférée ?
+
+48
+00:03:54,833 --> 00:03:57,553
+Choisis et dis-la-nous maintenant.
+
+49
+00:04:06,332 --> 00:04:10,392
+Les couleurs sont toutes côte à côte.
+
+50
+00:04:10,092 --> 00:04:14,332
+Choisis une couleur et dis-la-moi.
+
+51
+00:04:14,032 --> 00:04:18,552
+Regarde, montre et dis-le aussi.
+
+52
+00:04:18,252 --> 00:04:22,632
+Voilà notre monde plein de couleurs.
+
+53
+00:04:22,332 --> 00:04:26,532
+Ela chante, Mavi vole.
+
+54
+00:04:26,232 --> 00:04:30,692
+Le petit corbeau ouvre ses ailes.
+
+55
+00:04:30,392 --> 00:04:34,512
+Viens avec nous, dis une couleur.
+
+56
+00:04:34,652 --> 00:04:38,552
+Allez, tous ensemble maintenant !

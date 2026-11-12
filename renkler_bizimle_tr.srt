@@ -1,0 +1,223 @@
+1
+00:00:07,600 --> 00:00:11,080
+Kırmızı çatı gülümser
+
+2
+00:00:11,360 --> 00:00:14,860
+Turuncu kapı açılır
+
+3
+00:00:15,260 --> 00:00:19,480
+Sarı çiçek güneş gibi
+
+4
+00:00:19,180 --> 00:00:23,480
+Bahçemizde ışık parlar
+
+5
+00:00:23,980 --> 00:00:27,800
+Kırmızıya el salla sen
+
+6
+00:00:28,140 --> 00:00:31,700
+Turuncuya gülümse sen
+
+7
+00:00:31,400 --> 00:00:35,920
+Sarı çiçek bize bakar
+
+8
+00:00:35,840 --> 00:00:39,480
+Üç renk bize neşe katar
+
+9
+00:00:47,319 --> 00:00:51,379
+Renkler, renkler, hep yan yana
+
+10
+00:00:51,079 --> 00:00:55,319
+Bir renk seç ve söyle bana
+
+11
+00:00:55,019 --> 00:00:59,539
+Bak ve göster, sen de söyle
+
+12
+00:00:59,239 --> 00:01:03,619
+Renkli dünya bizim böyle
+
+13
+00:01:03,319 --> 00:01:07,519
+Ela söyler, Mavi uçar
+
+14
+00:01:07,219 --> 00:01:11,679
+Minik karga kanat açar
+
+15
+00:01:11,379 --> 00:01:15,499
+Sen de katıl, bir renk söyle
+
+16
+00:01:15,639 --> 00:01:19,539
+Haydi şimdi hep birlikte
+
+17
+00:01:26,787 --> 00:01:30,207
+Mavi gökte bulut gezer
+
+18
+00:01:29,907 --> 00:01:34,347
+Mavi gölde dalga güler
+
+19
+00:01:34,047 --> 00:01:39,327
+Yeşil çimen yeri örter
+
+20
+00:01:39,027 --> 00:01:43,447
+Yeşil yaprak bize döner
+
+21
+00:01:43,147 --> 00:01:46,027
+Beyaz bulut pamuk gibi
+
+22
+00:01:45,727 --> 00:01:50,007
+Gökyüzünde yüzer şimdi
+
+23
+00:01:49,707 --> 00:01:55,527
+Mavi, yeşil, beyaz renkler
+
+24
+00:01:55,227 --> 00:01:59,327
+Her birinde başka neşe
+
+25
+00:02:06,956 --> 00:02:11,016
+Renkler, renkler, hep yan yana
+
+26
+00:02:10,716 --> 00:02:14,956
+Bir renk seç ve söyle bana
+
+27
+00:02:14,656 --> 00:02:19,176
+Bak ve göster, sen de söyle
+
+28
+00:02:18,876 --> 00:02:23,256
+Renkli dünya bizim böyle
+
+29
+00:02:22,956 --> 00:02:27,156
+Ela söyler, Mavi uçar
+
+30
+00:02:26,856 --> 00:02:31,316
+Minik karga kanat açar
+
+31
+00:02:31,016 --> 00:02:35,136
+Sen de katıl, bir renk söyle
+
+32
+00:02:35,276 --> 00:02:39,176
+Haydi şimdi hep birlikte
+
+33
+00:02:46,635 --> 00:02:50,735
+Pembe çiçek bize güler
+
+34
+00:02:50,735 --> 00:02:54,535
+Mor çiçek de onu dinler
+
+35
+00:02:54,955 --> 00:02:58,655
+Siyah karga dala konar
+
+36
+00:02:58,895 --> 00:03:03,075
+Kanat açar, sonra bakar
+
+37
+00:03:03,095 --> 00:03:07,095
+Pembe, mor ve siyah renkler
+
+38
+00:03:06,995 --> 00:03:10,715
+Resmine bir renk daha kat
+
+39
+00:03:10,415 --> 00:03:14,855
+Söyle bize hangi renk bu
+
+40
+00:03:14,975 --> 00:03:19,175
+Renkler ile dünya güzel
+
+41
+00:03:26,553 --> 00:03:29,613
+Kırmızı renk nerede var?
+
+42
+00:03:30,373 --> 00:03:33,853
+Evin çatısında parlar
+
+43
+00:03:34,493 --> 00:03:37,873
+Yeşil renkler nerede var?
+
+44
+00:03:38,193 --> 00:03:41,853
+Çimenlerde, yaprakta var
+
+45
+00:03:41,553 --> 00:03:45,593
+Siyah renkli kim var orda?
+
+46
+00:03:46,373 --> 00:03:49,293
+Dalın üstündeki karga
+
+47
+00:03:50,233 --> 00:03:54,653
+En sevdiğin renk hangisi?
+
+48
+00:03:54,833 --> 00:03:57,553
+Seç ve söyle şimdi bize
+
+49
+00:04:06,332 --> 00:04:10,392
+Renkler, renkler, hep yan yana
+
+50
+00:04:10,092 --> 00:04:14,332
+Bir renk seç ve söyle bana
+
+51
+00:04:14,032 --> 00:04:18,552
+Bak ve göster, sen de söyle
+
+52
+00:04:18,252 --> 00:04:22,632
+Renkli dünya bizim böyle
+
+53
+00:04:22,332 --> 00:04:26,532
+Ela söyler, Mavi uçar
+
+54
+00:04:26,232 --> 00:04:30,692
+Minik karga kanat açar
+
+55
+00:04:30,392 --> 00:04:34,512
+Sen de katıl, bir renk söyle
+
+56
+00:04:34,652 --> 00:04:38,552
+Haydi şimdi hep birlikte
