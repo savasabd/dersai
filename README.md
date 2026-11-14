@@ -20,7 +20,7 @@ Bu yayın hazır dersi kullanma bölümüdür. Yeni ses, hikâye ve video üretm
 
 ## Materyaller
 
-- 10:45 hikâye ve renk oyunları videosu; Türkçe ses ve TR/FR altyazı.
+- 11:12 hikâye ve renk oyunları videosu; Türkçe ses ve TR/FR altyazı.
 - 4:39 Ela ve Mavi renk şarkısı; dokuz renk ve sözcük zamanlarına bağlı renk kartları.
 - Renk/nesne kartları, boyama atölyesi, A4 öğrenci not sayfası.
 - 20 sözcüklük etkileşimli bulmaca, öğrenci A4'ü ve öğretmen cevap anahtarı.
