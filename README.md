@@ -1,4 +1,4 @@
-# DersFilm · Renklerini Kaybeden Köy
+# Yapay Zeka ile Türkçe Dersler
 
 Türkçe öğretimi için 180 dakikalık ders için sekiz aşamalı, esnek süreli sınıf dersi. Arayüz, hazır videolar ve etkinlikler tarayıcıda çalışır.
 
