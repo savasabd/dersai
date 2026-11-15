@@ -4,7 +4,7 @@ Türkçe öğretimi için 180 dakikalık ders için sekiz aşamalı, esnek süre
 
 ## Derste kullanma
 
-`index.html` sınıf arayüzünü açar. Hikâye ikinci, Ela ve Mavi'nin renk şarkısı beşinci, sözcük avı dördüncü aşamadadır. Renk kartlarının Türkçe/Fransızca adları açılıp gizlenebilir. Öğrenci not sayfası ve bulmaca A4 olarak yazdırılır.
+`index.html` sınıf arayüzünü açar. Hikâye ikinci, Ela ve Mavi'nin renk şarkısı beşinci, resim atölyesi dördüncü, sözcük avı altıncı aşamadadır. Renk kartlarının Türkçe/Fransızca adları açılıp gizlenebilir. Öğrenci not sayfası ve bulmaca A4 olarak yazdırılır.
 
 ## GitHub Pages
 
