@@ -1,10 +1,10 @@
 # DersFilm · Renklerini Kaybeden Köy
 
-Türkçe öğretimi için 90 dakikalık, sekiz aşamalı sınıf dersi. Arayüz, hazır videolar ve etkinlikler tarayıcıda çalışır.
+Türkçe öğretimi için 180 dakikalık ders için sekiz aşamalı, esnek süreli sınıf dersi. Arayüz, hazır videolar ve etkinlikler tarayıcıda çalışır.
 
 ## Derste kullanma
 
-`index.html` sınıf arayüzünü açar. Hikâye ikinci, Ela ve Mavi'nin renk şarkısı üçüncü, sözcük avı beşinci aşamadadır. Renk kartlarının Türkçe/Fransızca adları açılıp gizlenebilir. Öğrenci not sayfası ve bulmaca A4 olarak yazdırılır.
+`index.html` sınıf arayüzünü açar. Hikâye ikinci, Ela ve Mavi'nin renk şarkısı beşinci, sözcük avı dördüncü aşamadadır. Renk kartlarının Türkçe/Fransızca adları açılıp gizlenebilir. Öğrenci not sayfası ve bulmaca A4 olarak yazdırılır.
 
 ## GitHub Pages
 
