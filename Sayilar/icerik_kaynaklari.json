@@ -1,0 +1,20 @@
+{
+  "story": {
+    "file": "hikaye.mp4",
+    "sha256": "3077df831bf36f9df38adeacef8e1b05384174625db51ab66574127e5d0334f0",
+    "original_sha256": "b8cc156e8961e477f399335e17e84770b73aa0cf48206469766fc1a46083e987"
+  },
+  "song": {
+    "file": "sarki.mp4",
+    "sha256": "b8f8964a3db3040645abe02a66a52cc80637c0cb31e260c0d8f333eab086f560",
+    "original_sha256": "3e14e52877345fadaec2c638503f67906db9a9a4da6b9fe98088403d97e3ec12"
+  },
+  "rejected_hook_included": false,
+  "min_minutes": 160,
+  "core_stages": 8,
+  "advanced_activities": 8,
+  "web_encode": {
+    "video": "H.264 CRF22",
+    "audio": "original encoded audio unchanged"
+  }
+}

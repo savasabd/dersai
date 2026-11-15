@@ -1,0 +1,32 @@
+{
+  "files": {
+    "cikis_A4.pdf": 1,
+    "eslestirme_A4.pdf": 1,
+    "gozlem_A4.pdf": 1,
+    "ileri_detective_A4.pdf": 1,
+    "ileri_drama_A4.pdf": 1,
+    "ileri_extra_A4.pdf": 2,
+    "ileri_order_A4.pdf": 1,
+    "ileri_reading_A4.pdf": 5,
+    "ileri_rewrite_A4.pdf": 1,
+    "ileri_survey_A4.pdf": 1,
+    "ileri_tickets_A4.pdf": 2,
+    "ileri_tum_formlar_A4.pdf": 14,
+    "kelime_bulmaca_A4.pdf": 1,
+    "kelime_bulmaca_cevap_A4.pdf": 1,
+    "ogrenci_not_A4.pdf": 1,
+    "ogrenci_tum_formlar_A4.pdf": 12,
+    "sayi_kartlari_A4.pdf": 4,
+    "senlik_atolyesi_A4.pdf": 2,
+    "senlik_resmi_A4.pdf": 1,
+    "sayi_tahmin_A4.pdf": 1
+  },
+  "page_size": "A4; scene poster landscape",
+  "story_lines": 63,
+  "characters": [
+    "Ela",
+    "Mavi",
+    "Bay Numara",
+    "Anlatıcı"
+  ]
+}

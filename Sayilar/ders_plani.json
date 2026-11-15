@@ -1,0 +1,366 @@
+{
+  "id": "sayilar",
+  "title": "Sayılar",
+  "stages": [
+    {
+      "id": "ready",
+      "title": "Hazırlık ve sayıları keşfet",
+      "time": [
+        5,
+        10
+      ],
+      "goal": "Bildiği sayı adlarını söyler; “Kaç tane?” sorusuna kısa cevap verir.",
+      "steps": [
+        "A4 öğrenci not sayfasını dağıtın. Sınıftan bir, iki ve üç nesne gösterin.",
+        "Kartların Türkçe ve Fransızca alanları soluk kalsın. Çocukların önce kendi sayı adlarını söylemesini bekleyin.",
+        "“Kaç kalem var?” sorusunu modelleyin. “Üç kalem var.” cümlesini birlikte söyleyin."
+      ],
+      "evidence": "Ön bilgiyi not edin; bu aşamada hız ya da yazım üzerinden puan vermeyin.",
+      "materials": [
+        "notlar",
+        "kartlar"
+      ],
+      "activity": "cards"
+    },
+    {
+      "id": "story",
+      "title": "Hikâyeyi izle, durdur ve konuş",
+      "time": [
+        30,
+        45
+      ],
+      "goal": "Hikâyedeki sorunu ve çözümü anlatır; duyduğu sayıyla görülen grubu eşleştirir.",
+      "steps": [
+        "Önce başlığı ve dört karakteri konuşun: Ela, Mavi, Bay Numara, Anlatıcı.",
+        "Hikâyeyi soru duraklarıyla izleyin. Her durakta önce sessiz düşünme, sonra eşle konuşma, en son paylaşma yapın.",
+        "Elma sahnesinde yanlış saymanın nedenini sorun. Sondaki sayı oyunlarında videoyu gerektiği kadar durdurun.",
+        "Öğrenciler A4 sayfasına birkaç sözcük veya küçük işaret eklesin."
+      ],
+      "evidence": "Bir nesneyi iki kez sayma ile bir nesneyi atlamanın farkını sözle açıklayabiliyor mu?",
+      "materials": [
+        "notlar",
+        "gozlem"
+      ],
+      "activity": "story"
+    },
+    {
+      "id": "matching",
+      "title": "Say, eşleştir ve tam cümle kur",
+      "time": [
+        20,
+        25
+      ],
+      "goal": "Birden ona kadar sayıları miktarla eşleştirir; sayıdan sonra tekil ad kullanır.",
+      "steps": [
+        "Ekrandaki grubu birlikte sayın. Öğrenci doğru sayı kartını seçsin.",
+        "Yalnızca rakamı söylemekle yetinmeyin: “Yedi bardak var.” cümlesini kurdurun.",
+        "İkililer A4 eşleme formunu tamamlasın; bir öğrenci sorup diğeri cevaplasın.",
+        "Gerektiğinde kartların nesne alanını göstererek destek verin."
+      ],
+      "evidence": "“Üç toplar” yerine “Üç top” diyebiliyor mu? Nesneleri birer kez işaretliyor mu?",
+      "materials": [
+        "eslestirme",
+        "kartlar"
+      ],
+      "activity": "matching"
+    },
+    {
+      "id": "workshop",
+      "title": "Şenlik vagonlarını birlikte hazırla",
+      "time": [
+        40,
+        50
+      ],
+      "goal": "İstek, soru ve açıklama cümleleriyle ortak bir şenlik planı oluşturur.",
+      "steps": [
+        "A4 şenlik görselini açın. Resimdeki nesne gruplarından ikisini, örneğin topları ve elmaları seçin. Çocuklardan her gruptaki nesneleri saymalarını ve “Üç top var.”, “Altı elma var.” gibi tam cümlelerle söylemelerini isteyin.",
+        "Üçlü gruplara atölye formunu verin. Her öğrenci bir vagon tasarlasın ve 1–10 arasında nesne çizsin.",
+        "İstekli gruplar bilet bölümünde her kutuyu on biletlik deste olarak kullansın; onar onar toplamı söylesin.",
+        "Bir öğrenci anlatıcı, biri sayıcı, biri kontrol eden olsun. Rolleri değiştirin; her çocuk konuşsun."
+      ],
+      "evidence": "Grup, çizdiği miktarı doğru cümleyle anlatabiliyor mu? İş birliği sayıları konuşmak için araçtır.",
+      "materials": [
+        "atolye",
+        "gorsel"
+      ],
+      "activity": "workshop"
+    },
+    {
+      "id": "song",
+      "title": "Şarkıya katıl, sayıları göster",
+      "time": [
+        10,
+        15
+      ],
+      "goal": "Şarkıda duyduğu sayıyı nesne veya kartla gösterir; sözlere ritimle katılır.",
+      "steps": [
+        "Hazır şarkıyı önce dinleyip izleyin; yeni nakarat denemesi bu derse alınmamıştır.",
+        "İkinci dinleyişte birden ona kadar bölümlere parmaklarla veya kartlarla eşlik edin.",
+        "Onluklarda parmak saydırmayın: her çocuk bir onluk deste kartı tutsun; grup toplamı söylesin.",
+        "Şarkıyı durdurup “Şimdi kaç bilet oldu?” diye sorun."
+      ],
+      "evidence": "Duyduğu sayı ile ekrandaki adedi ilişkilendiriyor mu? Söylemeye katılmak isteğe bağlıdır.",
+      "materials": [
+        "kartlar"
+      ],
+      "activity": "song"
+    },
+    {
+      "id": "wordsearch",
+      "title": "Şenlikte sözcük avı",
+      "time": [
+        20,
+        25
+      ],
+      "goal": "Karakter ve nesne adlarını tanır; bulduğu sözcüğü anlamlı cümlede kullanır.",
+      "steps": [
+        "İlk sözcüğü birlikte bulun. Ekranda ilk ve son harfi seçerek işaretleyin.",
+        "İkililer veya bireysel olarak A4 bulmacayı çözsün. Sözcük listesi ızgaradan ayrı durur.",
+        "Her öğrenci bulduğu iki sözcükle bir sayı cümlesi kursun: “İki flüt var.”",
+        "Cevap anahtarını yalnızca çalışma bittikten sonra açın."
+      ],
+      "evidence": "Harf bulmakla kalmayıp sözcüğün neyi anlattığını da gösterebiliyor mu?",
+      "materials": [
+        "bulmaca",
+        "bulmaca_cevap"
+      ],
+      "activity": "wordsearch"
+    },
+    {
+      "id": "guess",
+      "title": "Sayı tahmin oyunu: Ortadan başla",
+      "time": [
+        20,
+        30
+      ],
+      "goal": "Daha büyük, daha küçük ve eşit ifadeleriyle sayı karşılaştırır; kalan aralığın ortasını seçer.",
+      "steps": [
+        "Önce 1–10 aralığını seçin. Bir çocuk sayı tutsun; bilgisayarın ortadaki tahminine tam cümleyle cevap versin.",
+        "Her cevaptan sonra hangi sayıların elendiğini ve yeni aralığı birlikte söyleyin. Her seferinde ortayı seçmenin neden işe yaradığını konuşun.",
+        "Rolleri değiştirin: Bilgisayar sayı tutsun; çocuklar kalan aralığın ortasını önerip tahmin girsin.",
+        "A4 tahmin çizelgesine bir turu kaydedin. Hazır sınıflarda 1–100; isteyen gruplarda 1–1000 aralığına geçin."
+      ],
+      "evidence": "Öğrenci karşılaştırmanın yönünü doğru söyleyebiliyor mu? Yeni aralığı açıklayıp ortadaki sayıyı seçebiliyor mu? Hız üzerinden puan vermeyin.",
+      "materials": [
+        "tahmin",
+        "gozlem"
+      ],
+      "activity": "guess"
+    },
+    {
+      "id": "exit",
+      "title": "Sevdiğim sayı ve çıkış bileti",
+      "time": [
+        15,
+        20
+      ],
+      "goal": "Bağımsız bir sayı cümlesi ve kişisel tercih cümlesi kurar.",
+      "steps": [
+        "Öğrenci seçtiği miktarı çizip sayı adını yazsın veya öğretmene söylesin.",
+        "“En sevdiğim sayı …; çünkü …” cümlesini tamamlasın. Gerekçenin tek doğru cevabı yoktur.",
+        "Destek için bir görseli açık bırakın. İleri öğrenciler bir onluk toplamını da anlatsın.",
+        "Kısa bireysel geri bildirim verin; öğretmen notlarını indirin."
+      ],
+      "evidence": "Neyi bağımsız yaptığı, nerede görsel/sözlü desteğe ihtiyaç duyduğu kaydedilsin.",
+      "materials": [
+        "cikis",
+        "gozlem"
+      ],
+      "activity": "exit"
+    }
+  ],
+  "advanced": [
+    {
+      "id": "extra",
+      "title": "Bu sayıları da biliyor musunuz?",
+      "time": "10–15",
+      "goal": "Sıfır, 11–19, iki yüzden dokuz yüze yüzlükler ve bini Türkçe adlandırır; birlik, onluk ve yüzlük görsellerini yorumlar.",
+      "task": "Kartları dinleyip eşleştir. Sıfır kartında hiç nesne olmadığını söyle. On birden on dokuza kadar bir onluk ve ek nesneler bul. Yüzlük kartlarında her büyük kutu 100 bilettir; içinde on adet 10 biletlik deste vardır. On yüzlük, bin eder.",
+      "steps": [
+        "Önce rakam ve nesneler açık, dil alanları kapalı olsun.",
+        "TR/FR/nesneleri tek tek açarak karşılaştırın. Sıfırda boş kutu bir hata değildir.",
+        "İkililer birbirine iki sayı sorsun ve tam cümleyle cevaplasın."
+      ],
+      "support": "Hiç … yok. | Bir onluk ve … tane daha var. | … yüzlük var. | On yüzlük, bin eder. | Bu sayı …",
+      "sample": "On üç: Bir onluk ve üç tane daha var. Sıfır: Kutuda hiç bilet yok.",
+      "form": "ileri_extra_A4.pdf"
+    },
+    {
+      "id": "order",
+      "title": "Önce, sonra, arasında",
+      "time": "15–20",
+      "goal": "Sayıları sıralama ve karşılaştırma ifadeleriyle tarif eder.",
+      "task": "İpucuyla sayıyı bul; kendi ipucunu yaz. “Önce, sonra, arasında, büyük, küçük” ifadelerini uygun yerde kullan.",
+      "steps": [
+        "4–5–6 ve 30–40–50 kartlarını inceleyin.",
+        "“Beşten önce hangi sayı var?” ile “Otuzdan sonra onar sayınca ne gelir?” sorularını ayırın.",
+        "Eşin için bir ipucu oluştur; cevabını bir gerekçeyle açıklasın."
+      ],
+      "support": "… ile … arasında … var. | Birer / onar sayınca … | … daha büyüktür.",
+      "sample": "Birer sayarken dörtten sonra beş gelir. Onar sayarken kırktan sonra elli gelir.",
+      "form": "ileri_order_A4.pdf"
+    },
+    {
+      "id": "detective",
+      "title": "Yanlış saymayı düzelt",
+      "time": "15–20",
+      "goal": "Bir hatayı fark eder; nedenini ve düzeltme yolunu açıklar.",
+      "task": "Yanlış sayma örneğini incele. Hatayı adlandır, doğru sonucu söyle ve bir kontrol yöntemi öner.",
+      "steps": [
+        "Elma sahnesini hatırlatın: sorun nesnede değil sayma yöntemindeydi.",
+        "Formdaki numaralandırılmış nesneleri inceleyin; tekrar sayılanı ve atlananı ayırt edin.",
+        "“Çünkü” ve “bu yüzden” ile çözümünü eşine anlat."
+      ],
+      "support": "Aynı nesneyi iki kez saymış. | … nesnesini atlamış. | Bu yüzden … | Tek tek işaretlerim.",
+      "sample": "Altı elma var. Bir elma iki kez sayıldığı için yedi denmiş. Her elmanın yanına bir işaret koyarım.",
+      "form": "ileri_detective_A4.pdf"
+    },
+    {
+      "id": "tickets",
+      "title": "Bilet masası: Sende ne var?",
+      "time": "20–25",
+      "goal": "Eksik bilgiyi soru sorarak edinir; miktarı teyit eder.",
+      "task": "A ve B formlarını birbirine gösterme. “Sende kaç deste var?” diye sor; arkadaşının cevabını kaydet ve toplamı birlikte açıkla.",
+      "steps": [
+        "A/B sayfalarını ayrı öğrencilere verin.",
+        "İlk turda yalnızca soru ve cevapla eksik alanları doldurun; sonra sayfaları karşılaştırın.",
+        "Toplamı onar sayarak kontrol edin; işlem sembolü kullanmak zorunlu değildir."
+      ],
+      "support": "Sende kaç deste var? | Her destede kaç bilet var? | Doğru mu anladım? | Birlikte … biletimiz var.",
+      "sample": "Bende iki, sende üç deste var. Beş deste ediyor; onar sayınca elli biletimiz var.",
+      "form": "ileri_tickets_A4.pdf"
+    },
+    {
+      "id": "survey",
+      "title": "Sınıfımızın sevdiği sayılar",
+      "time": "20–30",
+      "goal": "Anket sorusu sorar; topladığı veriyi karşılaştırarak sunar.",
+      "task": "Dört arkadaşına sevdiği sayıyı ve nedenini sor. Yanıtları kaydet. İki benzerlik veya fark söyle.",
+      "steps": [
+        "Her çocuğun bir kez cevap verdiğinden emin olun.",
+        "Kişisel tercihlerde doğru/yanlış puanlaması yapmayın.",
+        "Sonuçları “daha çok, daha az, eşit” ifadeleriyle anlatın."
+      ],
+      "support": "En sevdiğin sayı hangisi? Neden? | … kişi … sayısını seçti. | İki arkadaşımın tercihi aynı.",
+      "sample": "İki arkadaşım yediyi, bir arkadaşım üçü, bir arkadaşım onu seçti. Bu küçük grupta yedi daha çok seçildi.",
+      "form": "ileri_survey_A4.pdf"
+    },
+    {
+      "id": "rewrite",
+      "title": "Şenlik trenine yeni bir sorun",
+      "time": "20–30",
+      "goal": "Olayları tutarlı sırayla yazar; sayıları hikâyenin çözümünde kullanır.",
+      "task": "Ela, Mavi ve Bay Numara için 6–8 cümlelik yeni bir serüven yaz. Birden ona kadar üç sayı ve bir onluk toplamı kullan.",
+      "steps": [
+        "Sorun, deneme ve çözüm için ayrı notlar alın.",
+        "Çözümün, hikâyede gösterilen veya anlatılan bir olaya dayanmasını isteyin.",
+        "Bir eş metni okuyup açıklayıcı bir soru sorsun; yazar bir cümleyi geliştirsin."
+      ],
+      "support": "Önce … | Fakat … | Bunun üzerine … | Sonunda … | … çünkü …",
+      "sample": "Kurdeleler iki vagona karıştı. Ela sekiz kurdeleyi tek tek işaretledi. Mavi, atlanan kurdeleyi gösterdi. Bay Numara doğru kartı yerine koydu.",
+      "form": "ileri_rewrite_A4.pdf"
+    },
+    {
+      "id": "drama",
+      "title": "Ela, Mavi ve Bay Numara: Şenlik sahnesi",
+      "time": "20–25",
+      "goal": "Rolüne uygun soru, öneri ve karşılık üretir; ortak karar verir.",
+      "task": "Üç karakterin konuştuğu 6–9 repliklik bir sahne yazıp oyna. En az üç sayı, bir “Kaç tane?” sorusu ve gerekçeli bir öneri kullan.",
+      "steps": [
+        "Sorun: Son vagondaki kart ile nesne adedi uyuşmuyor.",
+        "Her karakter bir öneri sunsun; çözümü birlikte kontrol edin.",
+        "İzleyenler hangi repliğin sorunu çözdüğünü söylesin."
+      ],
+      "support": "Bence …; çünkü … | Tekrar sayalım mı? | Kaç tane var? | Senin önerine …",
+      "sample": "Ela: Kartta yedi yazıyor ama altı elma görüyorum. Mavi: Bir elmayı iki kez saymış olabiliriz. Bay Numara: Her elmayı işaretleyip yeniden sayalım.",
+      "form": "ileri_drama_A4.pdf"
+    },
+    {
+      "id": "reading",
+      "title": "Dört rolle hikâyeyi okuyalım",
+      "time": "20–30",
+      "goal": "Ela, Mavi, Bay Numara ve Anlatıcı rollerini vurgu ve tonlamayla okur.",
+      "task": "Hikâyeyi dört kişi paylaşarak oku. Kendi repliklerini işaretle. İkinci turda başka bir rol al ve bir ses tercihini açıkla.",
+      "steps": [
+        "Hikâyenin tamamı aynı video metninden alınmıştır; video sonrası alıştırmalar okuma metnine eklenmemiştir.",
+        "Önce sessiz okuyun ve anlaşılmayan sözcükleri konuşun.",
+        "Soru, ünlem ve duygulara göre sesinizi ayarlayın; birbirinizin sözünü kesmeyin."
+      ],
+      "support": "Burada … hissediyor; çünkü … | Bu cümleyi … bir sesle okurum. | Soru işaretinde …",
+      "sample": "Bay Numara treni durdururken kararlı, yanlış saymayı fark edince düşünceli konuşabilir. Yorumunu metindeki olayla açıklaması beklenir.",
+      "form": "ileri_reading_A4.pdf"
+    }
+  ],
+  "stops": [
+    {
+      "id": "flag",
+      "time": 55.279999999999994,
+      "prompt": "Kaç bayrak var?",
+      "followup": "Önce tek başına düşün, sonra eşinle konuş. Tam cümle kur.",
+      "expected": "Bir bayrak var."
+    },
+    {
+      "id": "apple",
+      "time": 123.27999999999999,
+      "prompt": "Bay Numara neden yanlış saymış?",
+      "followup": "Bir nesneyi iki kez saymayı önlemek için ne yaparsın?",
+      "expected": "Aynı elmayı iki kez saymış. Her elmayı bir kez işaretleyerek sayabiliriz."
+    },
+    {
+      "id": "tickets",
+      "time": 213.02,
+      "prompt": "Daha çok çocuk gelirse biletleri nasıl sayabiliriz?",
+      "followup": "Bir destede kaç bilet var? Desteleri tek tek gösterebilir misin?",
+      "expected": "Her destede on bilet var. Desteleri onar onar sayabiliriz."
+    },
+    {
+      "id": "gate",
+      "time": 256.51,
+      "prompt": "Dokuzdan sonra hangi sayı gelir?",
+      "followup": "Birer saydığımıza dikkat et. Son kartı sen söyle.",
+      "expected": "On gelir. Kapının son kartında on olmalı."
+    }
+  ],
+  "materials": {
+    "notlar": [
+      "Öğrenci not sayfası · A4",
+      "ogrenci_not_A4.pdf"
+    ],
+    "kartlar": [
+      "Sayı kartları · A4",
+      "sayi_kartlari_A4.pdf"
+    ],
+    "eslestirme": [
+      "Say ve eşleştir · A4",
+      "eslestirme_A4.pdf"
+    ],
+    "atolye": [
+      "Şenlik atölyesi · A4",
+      "senlik_atolyesi_A4.pdf"
+    ],
+    "gorsel": [
+      "Şenlik görseli · yatay A4",
+      "senlik_resmi_A4.pdf"
+    ],
+    "bulmaca": [
+      "Kelime bulmaca · A4",
+      "kelime_bulmaca_A4.pdf"
+    ],
+    "bulmaca_cevap": [
+      "Bulmaca cevap anahtarı",
+      "kelime_bulmaca_cevap_A4.pdf"
+    ],
+    "cikis": [
+      "Çıkış bileti · A4",
+      "cikis_A4.pdf"
+    ],
+    "gozlem": [
+      "Öğretmen gözlem formu",
+      "gozlem_A4.pdf"
+    ],
+    "tahmin": [
+      "Sayı tahmin çizelgesi · A4",
+      "sayi_tahmin_A4.pdf"
+    ]
+  }
+}
