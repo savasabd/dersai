@@ -6,7 +6,7 @@ Hikâyeler, şarkılar, etkileşimli sınıf etkinlikleri ve yazdırılabilir ö
 
 ## Mevcut durum
 
-- 36 konuluk ders planı; Renkler hazır, diğer 35 ders hazırlanıyor.
+- 36 konuluk ders planı; Renkler ve Sayılar hazır, diğer 34 ders hazırlanıyor.
 - Renkler, listede 4. ders: *Renklerini Kaybeden Köy*.
 - Sekiz aşamalı sınıf akışı; 180 dakikalık ders çerçevesinde esnek etkinlik süreleri. Alt sürelerin toplamı 170 dakika.
 - Öğretmen notları bu tarayıcıda saklanır ve indirilebilir.
@@ -43,7 +43,7 @@ Hikâyeler, şarkılar, etkileşimli sınıf etkinlikleri ve yazdırılabilir ö
 | 2 | Alfabe ve Türkçenin Sesleri | Hazırlanıyor |
 | 3 | Sınıfım ve Okul Eşyalarım | Hazırlanıyor |
 | 4 | Renkler | Hazır |
-| 5 | Sayılar | Hazırlanıyor |
+| 5 | Sayılar | Hazır |
 | 6 | Oyunlar ve Oyuncaklar | Hazırlanıyor |
 | 7 | Vücudum | Hazırlanıyor |
 | 8 | Ailem | Hazırlanıyor |
@@ -87,3 +87,8 @@ Bu depo, hazırlanmış derslerin tarayıcıda kullanılan yayınını içerir. 
 ## İstatistikler
 
 Ana sayfa toplam, hazır ve hazırlanan ders sayılarını gösterir. GitHub depo trafik sayıları kontrol tarihiyle birlikte bir anlık kayıt olarak gösterilir; canlı sayaç değildir. Depo ziyaretleri, GitHub Pages ders sitesinin ziyaretçi sayısı değildir. Ders sitesi için ziyaretçi ölçümü henüz bağlı değildir.
+
+
+## Sayılar dersinin akışı
+
+[Bay Numara ve Şenlik Treni](https://savasabd.github.io/dersai/Sayilar/index.html): sekiz aşama; hazır hikâye ve şarkı, Türkçe/Fransızca sayı kartları, eşleme, şenlik atölyesi, sözcük avı, aralığı yarıya indiren sayı tahmin oyunu ve çıkış bileti. Sekiz ileri alternatif, dört rolle okuma ve etkinliğe özel A4 öğrenci formları. Tahmini alt sürelerin toplamı 160 dakika; 180 dakikalık esnek çerçeve.
