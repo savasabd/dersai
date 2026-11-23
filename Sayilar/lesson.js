@@ -34,7 +34,7 @@ function go(i){commit();running=false;document.querySelectorAll('video').forEach
 
 function materialLinks(keys){return keys.map(k=>'<a class="button secondary" href="'+D.materials[k][1]+'" target="_blank" rel="noopener">'+esc(D.materials[k][0])+'</a>').join('')}
 
-function media(type){return '<video id="media" controls playsinline preload="metadata" poster="'+(type==='song'?'song_poster.png':'story_poster.png')+'" src="'+(type==='song'?'sarki.mp4':'hikaye.mp4')+'"></video>'}
+function media(type){return '<video id="media" controls playsinline preload="metadata" poster="'+(type==='song'?'song_poster.png':'story_poster.png')+'" src="'+(type==='song'?'sarki_aac.mp4':'hikaye.mp4')+'"></video>'}
 
 function setupStory(){let v=$('#media');$('#practice').onclick=()=>{v.currentTime=D.practiceStart;v.play().catch(()=>{})};$('#storyStart').onclick=()=>{v.currentTime=0;v.play().catch(()=>{})};$('#resume').onclick=()=>{$('#prompt').hidden=true;v.play().catch(()=>{})};$('#answer').onclick=()=>{$('#expected').hidden=!$('#expected').hidden};$('#resetStops').onclick=()=>{state.seen=[];save();$('#prompt').hidden=true};v.addEventListener('timeupdate',()=>{if(v.paused||v.seeking||!$('#autoStops').checked)return;const stop=D.stops.find(s=>!state.seen.includes(s.id)&&v.currentTime>=s.time&&v.currentTime<s.time+1);if(stop){state.seen.push(stop.id);save();v.pause();v.currentTime=stop.time;$('#questionText').textContent=stop.prompt;$('#followup').textContent=stop.followup;$('#expected').textContent=stop.expected;$('#expected').hidden=true;$('#prompt').hidden=false}})}
 
@@ -79,4 +79,5 @@ if(D.mode==='core'&&location.hash==='#bulmaca')state.stage=D.stages.findIndex(x=
 if(D.mode==='core'&&location.hash==='#tahmin')state.stage=D.stages.findIndex(x=>x.id==='guess');
 
 setInterval(tick,1000);window.addEventListener('beforeunload',commit);render();
+
 
