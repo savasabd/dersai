@@ -45,7 +45,7 @@
     },
     {
       "id": "matching",
-      "title": "Say, eşleştir ve tam cümle kur",
+      "title": "Say, eşleştir, boya ve anlat",
       "time": [
         20,
         25
@@ -55,12 +55,14 @@
         "Ekrandaki grubu birlikte sayın. Öğrenci doğru sayı kartını seçsin.",
         "Yalnızca rakamı söylemekle yetinmeyin: “Yedi bardak var.” cümlesini kurdurun.",
         "İkililer A4 eşleme formunu tamamlasın; bir öğrenci sorup diğeri cevaplasın.",
-        "Gerektiğinde kartların nesne alanını göstererek destek verin."
+        "Gerektiğinde kartların nesne alanını göstererek destek verin.",
+        "Boyama A4 sayfasını dağıtın. Ela, Mavi, Bay Numara ve sayıları boyasınlar. Her vagondaki daireleri saysınlar; “Üçü maviye boyadım.” ve “Bu vagonda üç daire var.” gibi cümlelerle anlatsınlar."
       ],
       "evidence": "“Üç toplar” yerine “Üç top” diyebiliyor mu? Nesneleri birer kez işaretliyor mu?",
       "materials": [
         "eslestirme",
-        "kartlar"
+        "kartlar",
+        "boyama"
       ],
       "activity": "matching"
     },
@@ -361,6 +363,10 @@
     "tahmin": [
       "Sayı tahmin çizelgesi · A4",
       "sayi_tahmin_A4.pdf"
+    ],
+    "boyama": [
+      "Say, boya ve anlat · A4",
+      "say_ve_boya_A4.pdf"
     ]
   }
 }
