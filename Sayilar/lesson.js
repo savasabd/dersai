@@ -62,7 +62,7 @@ function render(){const advanced=D.mode==='advanced';const all=advanced?D.advanc
 
  if(s.activity==='story'){$('#activity').innerHTML=media('story')+'<div class="tools"><button id="storyStart">Hikâyeyi başlat</button><button id="practice">Hikâye sonrası sayı oyunları</button><button class="secondary" id="resetStops">Soru duraklarını sıfırla</button></div><label class="check"><input type="checkbox" id="autoStops" checked>Soru duraklarında otomatik dur</label><div id="prompt" class="prompt" hidden><h3 id="questionText"></h3><p id="followup"></p><button id="answer">Örnek cevap</button><p id="expected" hidden></p><button id="resume">Videoya devam</button></div>';setupStory()}
 
- if(s.activity==='song')$('#activity').innerHTML=media('song')+'<p class="muted">Hazır şarkı · Söylenen sayı ve nesneler ekranda görünür · Türkçe / Fransızca altyazılı</p>';
+ if(s.activity==='song'){$('#activity').innerHTML='<p>Şarkı aşağıda hazır. Oynat düğmesine basın; sayı söylenince çocuklar kartı göstersin ve ritme katılsın.</p><iframe id="numberSongFrame" title="Şarkı ve hareket · Ela, Mavi ve Bay Numara" src="sarki_izle.html" style="width:100%;height:650px;border:0;display:block"></iframe>';const frame=$('#numberSongFrame');frame.onload=()=>{const body=frame.contentDocument.body;const fit=()=>frame.style.height=Math.ceil(body.getBoundingClientRect().height+20)+'px';fit();const observer=new ResizeObserver(fit);observer.observe(body)}}
 
  if(s.activity==='guess')window.startNumberGuess($('#activity'));if(s.activity==='matching')matching();if(s.activity==='wordsearch')wordsearch();if(s.activity==='workshop')$('#activity').innerHTML=writing();if(s.activity==='exit')$('#activity').innerHTML='<h3>En sevdiğin sayı hangisi? Neden?</h3><p>Seçtiğin miktarı çiz; sonra “Burada … tane … var.” cümlesini kur.</p><div class="hero-strip">'+['ela','mavi','bay_numara'].map(r=>'<figure><img src="'+r+'.png" alt="'+D.roles[r]+'"><figcaption>'+D.roles[r]+'</figcaption></figure>').join('')+'</div><p>A4 çıkış bileti her sayfada iki öğrenci için hazırlanmıştır.</p>';
 
@@ -79,5 +79,6 @@ if(D.mode==='core'&&location.hash==='#bulmaca')state.stage=D.stages.findIndex(x=
 if(D.mode==='core'&&location.hash==='#tahmin')state.stage=D.stages.findIndex(x=>x.id==='guess');
 
 setInterval(tick,1000);window.addEventListener('beforeunload',commit);render();
+
 
 
