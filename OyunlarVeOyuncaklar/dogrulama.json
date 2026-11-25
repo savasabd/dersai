@@ -1,0 +1,16 @@
+{
+  "stages": 8,
+  "minimum_minutes": 170,
+  "primary_cards": 25,
+  "advanced_cards": 6,
+  "advanced_tasks": 6,
+  "group_tasks": 5,
+  "pdf_files": 30,
+  "http_links_checked": 82,
+  "link_errors": [],
+  "pdf_geometry_errors": [],
+  "all_cloze_pdfs_one_A4": true,
+  "approved_media_unchanged": true,
+  "puzzle_paths_verified": true,
+  "boyama": "Only precolored Pofuduk;8uncoloredtoys and own drawing field"
+}

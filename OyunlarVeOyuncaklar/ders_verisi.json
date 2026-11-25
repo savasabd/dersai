@@ -1,0 +1,2766 @@
+{
+  "id": "oyunlar-ve-oyuncaklar",
+  "title": "Oyunlar ve Oyuncaklar",
+  "subtitle": "Oyun Sandığının Sırrı",
+  "mode": "core",
+  "stages": [
+    {
+      "id": "ready",
+      "title": "Hazırlık ve oyun sandığını keşfet",
+      "time": [
+        5,
+        10
+      ],
+      "goal": "Bildiği oyuncak ve oyun adlarını hatırlar; “Bu ne?” sorusuna cevap verir.",
+      "steps": [
+        "Öğrenci A4 sayfasındaki oyuncak ve oyun görsellerini açın. Altlarındaki adları birlikte sözlü olarak bulun; yazmayı ders içinde tamamlayın.",
+        "Kartlarda önce yalnızca görseli gösterin. “Bu ne?” diye sorun; çocukların bildiği sözcükleri alın.",
+        "“Bu bir top.”, “Bu seksek oyunu.” modellerini kullanın. Türkçe ve Fransızca alanlarını gerektiğinde ayrı ayrı etkinleştirin."
+      ],
+      "evidence": "Altı karttan hangilerini kendiliğinden adlandırıyor, hangilerinde destek gerekiyor?",
+      "materials": [
+        "notlar",
+        "kartlar"
+      ],
+      "activity": "cards"
+    },
+    {
+      "id": "story",
+      "title": "Hikâyeyi izle, durdur ve konuş",
+      "time": [
+        30,
+        45
+      ],
+      "goal": "Oyuncak ile oyunu ayırt eder; hikâyeden bir olayı ve bir hareketi anlatır.",
+      "steps": [
+        "Pofuduk’un sandığında ne olabileceğini tahmin ettirin.",
+        "Videoyu soru duraklarıyla izleyin. Önce düşünme, sonra eşle konuşma, ardından paylaşma için zaman verin.",
+        "Geleneksel oyunları görselle tanıtın. Bu bölümde tam oyun kuralları öğretmek yerine “Kim ne yapıyor?” sorusunu çalışın.",
+        "Sondaki sorularda cevap gelmeden durun; örnek cevabı çocuklardan sonra açın. A4 sayfasına kısa notlar ekletin."
+      ],
+      "evidence": "Bir oyuncağı adı ve hareketiyle anlatıyor mu? Oyun ile oyuncağa birer örnek verebiliyor mu?",
+      "materials": [
+        "notlar",
+        "gozlem",
+        "oyunlar"
+      ],
+      "activity": "story"
+    },
+    {
+      "id": "matching",
+      "title": "Eşleştir, boya ve anlat",
+      "time": [
+        20,
+        25
+      ],
+      "goal": "Görseli sözcükle eşleştirir; oyuncak veya oyun için bir cümle kurar.",
+      "steps": [
+        "Görselin doğru adını ekrandaki seçeneklerden seçtirin. Ardından tam cümle isteyin.",
+        "A4 eşleştirme formunda oyuncakları adlarıyla birleştirin.",
+        "Boyama formunda yalnızca oyuncakları boyayın ve boş alana yeni bir oyuncak çizin. Yeni kahraman Pofuduk hazır renklidir; öğrenci onu boyamaz. Her çocuk seçtiği iki oyuncağı adı ve hareketiyle anlatsın."
+      ],
+      "evidence": "“Bu bir uçurtma. Uçurtmayı uçuruyorum.” gibi bir adlandırma ve bir eylem cümlesi kuruyor mu?",
+      "materials": [
+        "eslestirme",
+        "boyama",
+        "kartlar"
+      ],
+      "activity": "matching"
+    },
+    {
+      "id": "workshop",
+      "title": "Kendi oyuncağını tasarla ve tanıt",
+      "time": [
+        40,
+        50
+      ],
+      "goal": "Oyuncağını çizip adlandırır; nasıl hareket ettiğini anlatır ve arkadaşını oyuna davet eder.",
+      "steps": [
+        "Atölye formunun büyük çizim alanına yeni bir oyuncak veya oyuncak köşesi tasarlatın.",
+        "Sözcük bankasından destekle “Bu benim …”, “Bununla …” cümlelerini tamamlatın.",
+        "İkililer “Benimle oynar mısın?” sorusuyla kısa konuşma kursun. Karşı taraf olumlu veya nazikçe farklı bir tercih bildirsin.",
+        "Ürünleri küçük bir sergide gösterin. Her öğrenci kendi çalışmasını iki cümleyle sunsun; diğerleri bir soru sorsun."
+      ],
+      "evidence": "Ad, hareket ve davet ifadesini kullanıyor mu? Arkadaşının sorusuna uygun cevap veriyor mu?",
+      "materials": [
+        "atolye",
+        "gorsel"
+      ],
+      "activity": "workshop"
+    },
+    {
+      "id": "song",
+      "title": "Şarkıyı söyle, göster ve katıl",
+      "time": [
+        10,
+        15
+      ],
+      "goal": "Duyduğu oyuncak ve hareket sözcüklerini ayırt eder; kısa yönergelerle ritme katılır.",
+      "steps": [
+        "Şarkıyı açın; sözü geçen oyuncağı karttan gösterin veya hareketini bulunduğunuz yerde canlandırın.",
+        "Aynı nakarata katılın. Türkçe üstte, Fransızca altta destek olarak izlenebilir.",
+        "Eksik Sözleri Tamamla bölümünde oyun/hareket, nesne veya karışık seçeneğini kullanın. Önce dinleyip boşlukları tamamlayın, sonra kontrol edin. Yazılı çalışma için iki sütunlu tek A4 formunu verin."
+      ],
+      "evidence": "Duyduğu sözcüğü uygun görsel veya boşlukla eşleştiriyor mu?",
+      "materials": [
+        "sarki_primary",
+        "sarki_objects",
+        "sarki_mixed"
+      ],
+      "activity": "song"
+    },
+    {
+      "id": "wordsearch",
+      "title": "Hikâyede sözcük avı",
+      "time": [
+        20,
+        25
+      ],
+      "goal": "Hikâyenin oyuncak, oyun, kahraman ve hareket sözcüklerini tanır ve okur.",
+      "steps": [
+        "Önce sözcük bankasından bildiklerini okuyun; gerekiyorsa kartlarla eşleştirin.",
+        "Bulmacada başlangıç ve bitiş harfine tıklayarak sağa veya aşağı yönde sözcük bulun.",
+        "Bulunan her sözcük için hikâyedeki yerini ya da ilgili hareketi kısa cümleyle anlattırın.",
+        "İsteyen öğrenci A4 bulmacayı tamamlasın; cevap anahtarını çalışmadan sonra açın."
+      ],
+      "evidence": "Sözcüğü yalnız bulmuyor, anlamını bir görsel veya cümleyle gösterebiliyor mu?",
+      "materials": [
+        "bulmaca",
+        "bulmaca_cevap"
+      ],
+      "activity": "wordsearch"
+    },
+    {
+      "id": "guess",
+      "title": "Anlat, sor ve bul",
+      "time": [
+        30,
+        40
+      ],
+      "goal": "Oyuncak veya oyunu adını söylemeden tarif eder; soru sorup uygun tahmin yapar.",
+      "steps": [
+        "Bir oyuncu gizli kartı seçsin. Diğerleri görseli görmeden Türkçe soru sorsun.",
+        "“Oyuncak mı, oyun mu?”, “Nasıl hareket eder?” sorularını kullanın. İpucunu okuyup öğrencilerin kendi sorularını üretmesini destekleyin.",
+        "Tahmini adlandırma cümlesiyle kontrol edin. Eşler rolleri değiştirerek iki tarif hazırlasın.",
+        "A4 dil oyunu formunda iki ipucu ve cevabı kaydedin. Geleneksel oyunu gerçekten oynamak yerine onu anlatma ve tahmin etme görevi yapılır."
+      ],
+      "evidence": "Bir özellik veya hareket söyler, bir soru sorar ve gerekçeli tahmin yapar mı?",
+      "materials": [
+        "tahmin",
+        "kartlar"
+      ],
+      "activity": "guess"
+    },
+    {
+      "id": "exit",
+      "title": "Tercihini paylaş ve çıkış biletini tamamla",
+      "time": [
+        15,
+        20
+      ],
+      "goal": "Sevdiği bir oyuncağı ve oyunu söyler; kısa gerekçe ve davet cümlesi kurar.",
+      "steps": [
+        "Köy görselinden bir oyuncak ve bir oyun seçtirin. “Ben … seviyorum; çünkü …” modelini kullanın.",
+        "Eşine “Benimle … oynar mısın?” diye sordurun. Arkadaşının tercihini de bir cümleyle aktarsın.",
+        "Çıkış biletinde seçimini çizin veya yazın; öğrenci bildiği sözcükleri işaretlesin.",
+        "Öğretmen gözlem formunda bağımsız ve destekli cevapları ayrı kaydetsin."
+      ],
+      "evidence": "Öğrenci iki hedef sözcüğü ve en az bir iletişim ifadesini bağımsız kullanıyor mu?",
+      "materials": [
+        "cikis",
+        "notlar",
+        "gozlem"
+      ],
+      "activity": "exit"
+    }
+  ],
+  "advanced": [
+    {
+      "id": "extra",
+      "title": "Bu oyuncak ve oyunları da biliyor musunuz?",
+      "time": "20–30",
+      "goal": "Yeni sözcükleri önceki oyuncak ve oyunlarla ilişkilendirir.",
+      "task": "İki yeni kart seç; bildiğin bir kartla benzer ve farklı yönlerini anlat.",
+      "steps": [
+        "Kartların görselini açın; Türkçe ve Fransızcayı ayrı kontrol edin.",
+        "Önce bildiklerini, sonra yeni iki sözcüğü söylesinler.",
+        "Öğrenci formunda iki kartı karşılaştırıp bir soru yazsın."
+      ],
+      "fields": [
+        "Yeni öğrendiğim iki sözcük",
+        "Bir benzerlik",
+        "Bir fark",
+        "Arkadaşıma sorum"
+      ],
+      "form": "ileri_extra_A4.pdf",
+      "support": "Bu … bir oyuncaktır/oyundur. Bununla … yaparım. Önce …, sonra … . Ben … seçiyorum; çünkü … .",
+      "sample": "Bu bir uçurtma. İpi vardır ve rüzgârla uçar. Onu bahçede uçurmayı seçiyorum; çünkü açık alanda daha rahat hareket eder."
+    },
+    {
+      "id": "compare",
+      "title": "Oyuncak mı, oyun mu? Ayrıntıyla anlat",
+      "time": "20–30",
+      "goal": "Nesne ile etkinliği ayırt edip özellik ve gerekçe belirtir.",
+      "task": "Top ile istop veya atlama ipi ile ip atlamayı karşılaştır.",
+      "steps": [
+        "Bir araç ve onunla yapılan oyunu seçin.",
+        "Neyi tutabildiğimizi, hangi etkinliği yaptığımızı konuşun.",
+        "Benzerlik, fark ve bir örnek cümleyi tabloya yazın."
+      ],
+      "fields": [
+        "Oyuncak / oyun çifti",
+        "Oyuncağın özelliği",
+        "Oyunda ne yapılır?",
+        "Benzerlik ve fark"
+      ],
+      "form": "ileri_compare_A4.pdf",
+      "support": "Bu … bir oyuncaktır/oyundur. Bununla … yaparım. Önce …, sonra … . Ben … seçiyorum; çünkü … .",
+      "sample": "Bu bir uçurtma. İpi vardır ve rüzgârla uçar. Onu bahçede uçurmayı seçiyorum; çünkü açık alanda daha rahat hareket eder."
+    },
+    {
+      "id": "reading",
+      "title": "Ela, Mavi ve Pofuduk ile rollü okuma",
+      "time": "20–30",
+      "goal": "Rolüne uygun vurgu ve tonlamayla okur, konuşmayı izler.",
+      "task": "Anlatıcı, Ela, Mavi ve Pofuduk rollerini paylaş; bir bölüm seçip sesli oku.",
+      "steps": [
+        "Hikâyenin başından, oyuncak tanıtımından veya sır bölümünden bir kesit seçin.",
+        "Noktalama, hitap ve soru tonlamasını çalışın.",
+        "Rolleri değiştirin; dinleyen öğrenci bir soru ve bir yanıt yazsın."
+      ],
+      "fields": [
+        "Rolüm ve seçtiğim bölüm",
+        "Vurgulayacağım iki ifade",
+        "Dinleyici sorusu",
+        "Cevabım"
+      ],
+      "form": "ileri_reading_A4.pdf",
+      "support": "Bu … bir oyuncaktır/oyundur. Bununla … yaparım. Önce …, sonra … . Ben … seçiyorum; çünkü … .",
+      "sample": "Bu bir uçurtma. İpi vardır ve rüzgârla uçar. Onu bahçede uçurmayı seçiyorum; çünkü açık alanda daha rahat hareket eder."
+    },
+    {
+      "id": "riddle",
+      "title": "Oyuncağımı üç ipucuyla bul",
+      "time": "20–30",
+      "goal": "Adını vermeden özellik ve hareketle tarif eder.",
+      "task": "Bir kart seç; adını söylemeden üç ipucu hazırla. Arkadaşının tahminini gerekçesiyle kaydet.",
+      "steps": [
+        "Renk dışındaki ayırt edici özellikleri de kullanın.",
+        "Bir ipucunu çok genel bırakıp neden yetmediğini konuşun.",
+        "İpuçlarını geliştirip yeni eşle tekrar deneyin."
+      ],
+      "fields": [
+        "Gizli kartım",
+        "Birinci ipucu",
+        "İkinci ipucu",
+        "Üçüncü ipucu",
+        "Tahmin ve gerekçesi"
+      ],
+      "form": "ileri_riddle_A4.pdf",
+      "support": "Bu … bir oyuncaktır/oyundur. Bununla … yaparım. Önce …, sonra … . Ben … seçiyorum; çünkü … .",
+      "sample": "Bu bir uçurtma. İpi vardır ve rüzgârla uçar. Onu bahçede uçurmayı seçiyorum; çünkü açık alanda daha rahat hareket eder."
+    },
+    {
+      "id": "sequence",
+      "title": "Önce, sonra: yönerge ustası",
+      "time": "20–30",
+      "goal": "Hareketleri sıraya koyar ve anlaşılır yönerge üretir.",
+      "task": "Bir oyuncak seç; kullanımını üç adımda anlat. Başka bir öğrenci yalnızca çizimle uygulasın.",
+      "steps": [
+        "Topaç, yapboz veya bloklardan birini seçin.",
+        "Önce, sonra ve en son ifadeleriyle üç kısa yönerge kurun.",
+        "Eşinizin çiziminden yönergenin anlaşılıp anlaşılmadığını kontrol edin."
+      ],
+      "fields": [
+        "Seçtiğim oyuncak",
+        "Önce…",
+        "Sonra…",
+        "En son…",
+        "Daha açık söyleyeceğim ifade"
+      ],
+      "form": "ileri_sequence_A4.pdf",
+      "support": "Bu … bir oyuncaktır/oyundur. Bununla … yaparım. Önce …, sonra … . Ben … seçiyorum; çünkü … .",
+      "sample": "Bu bir uçurtma. İpi vardır ve rüzgârla uçar. Onu bahçede uçurmayı seçiyorum; çünkü açık alanda daha rahat hareket eder."
+    },
+    {
+      "id": "rewrite",
+      "title": "Pofuduk’un yeni serüveni",
+      "time": "20–30",
+      "goal": "Hikâyeye tutarlı bir olay ve kısa diyalog ekler.",
+      "task": "Sandıkta yeni bir oyuncak bulunsun. Ela, Mavi ve Pofuduk’un konuştuğu kısa bir son yaz.",
+      "steps": [
+        "Yeni nesneyi ve neden sorun çıkardığını belirleyin.",
+        "Her kahramana bir soru veya cevap verin.",
+        "Çözüm ile son cümlenin tutarlı olduğunu eşinizle kontrol edin."
+      ],
+      "fields": [
+        "Yeni oyuncak ve olay",
+        "Ela ne soruyor?",
+        "Mavi ne söylüyor?",
+        "Pofuduk nasıl açıklıyor?",
+        "Çözüm ve son cümle"
+      ],
+      "form": "ileri_rewrite_A4.pdf",
+      "support": "Bu … bir oyuncaktır/oyundur. Bununla … yaparım. Önce …, sonra … . Ben … seçiyorum; çünkü … .",
+      "sample": "Bu bir uçurtma. İpi vardır ve rüzgârla uçar. Onu bahçede uçurmayı seçiyorum; çünkü açık alanda daha rahat hareket eder."
+    }
+  ],
+  "groups": [
+    {
+      "id": "dukkan",
+      "title": "Sözlü oyuncak dükkânı",
+      "time": "20–25",
+      "size": "3 kişi",
+      "goal": "İstek bildirir, duyduğu isteği tekrar edip uygun oyuncağı verir.",
+      "task": "Para kullanmadan oyuncak kartı iste, teslim al ve konuşmayı kaydet.",
+      "steps": [
+        "İsteyen, kartları veren ve konuşmayı kontrol eden rollerini paylaşın.",
+        "“Bana bir top verir misin?” sorusuna veren öğrenci nesneyi tekrar ederek cevap versin.",
+        "Dört turu tabloda kaydedin; her turda rolleri değiştirin."
+      ],
+      "fields": [
+        "İstenen oyuncak",
+        "İstek cümlesi",
+        "Verilen cevap",
+        "Doğru kart mı?"
+      ],
+      "form": "grup_dukkan_A4.pdf"
+    },
+    {
+      "id": "gizli-sandik",
+      "title": "Gizli sandık: bilgi paylaşımı",
+      "time": "20–30",
+      "size": "2–4 kişi",
+      "goal": "Arkadaşında eksik olan bilgiyi sorularla bulur ve ortak liste oluşturur.",
+      "task": "A ve B kartlarını birbirinize göstermeden anlatın; iki sandığın ortak oyuncaklarını bulun.",
+      "steps": [
+        "Formun A ve B bölümlerini ayırın; kartları yalnız kendi ekibiniz görsün.",
+        "“Sende uçurtma var mı?” diye sorun. Evet veya hayırdan sonra tam cümle kurun.",
+        "Ortak listeyi yazın, en son görsellerle kontrol edin."
+      ],
+      "fields": [
+        "A sandığı: top, kukla, uçurtma, bloklar",
+        "B sandığı: top, robot, uçurtma, misket",
+        "Sorduğumuz sorular",
+        "Ortak oyuncaklar",
+        "Birlikte kontrol"
+      ],
+      "form": "grup_gizli-sandik_A4.pdf"
+    },
+    {
+      "id": "afis",
+      "title": "Birlikte oyuncak köşesi afişi",
+      "time": "25–35",
+      "size": "3–4 kişi",
+      "goal": "Öneri sunar, ortak karar verir ve seçimi gerekçelendirir.",
+      "task": "Dört oyuncaklık bir oyun köşesi tasarlayın; her üye bir parçayı Türkçe tanıtsın.",
+      "steps": [
+        "Her öğrenci bir oyuncak önerip nedenini söylesin.",
+        "Afişte çizimleri ve iki davet cümlesini birlikte hazırlayın.",
+        "Sunan kişiyi tek başına bırakmayın; her üye bir cümle kursun."
+      ],
+      "fields": [
+        "Ortak çizim alanı",
+        "Seçtiğimiz dört oyuncak",
+        "Birinci davet cümlemiz",
+        "İkinci davet cümlemiz",
+        "Her üyenin katkısı"
+      ],
+      "form": "grup_afis_A4.pdf"
+    },
+    {
+      "id": "roportaj",
+      "title": "Oyun ve oyuncak röportajı",
+      "time": "20–25",
+      "size": "4 kişi",
+      "goal": "Tercih sorar, cevabı not alır ve arkadaşının tercihini aktarır.",
+      "task": "Gruptaki herkesin bir oyuncak ve oyun tercihini sor; bir arkadaşının cevabını sun.",
+      "steps": [
+        "Soran, cevaplayan ve kaydeden görevlerini sırayla yapın.",
+        "“Hangi oyuncağı seversin? Hangi oyunu seçersin? Neden?” sorularını kullanın.",
+        "Sonuçları karşılaştırın; tercihleri iyi–kötü diye sıralamayın."
+      ],
+      "fields": [
+        "Kişi / rol",
+        "Oyuncak tercihi",
+        "Oyun tercihi",
+        "Kısa gerekçe"
+      ],
+      "form": "grup_roportaj_A4.pdf"
+    },
+    {
+      "id": "yönerge",
+      "title": "Çiz ve anlat: ortak görev",
+      "time": "20–30",
+      "size": "3 kişi",
+      "goal": "Açık yönerge verir, anlamadığında soru sorar ve ürünü birlikte kontrol eder.",
+      "task": "Tarif eden gizli bir oyuncak kartına baksın; çizen, kartı görmeden yönergeleri izlesin.",
+      "steps": [
+        "Tarif eden, çizen ve soruları kaydeden rollerini paylaşın.",
+        "Nesnenin adını ilk anda söylemeden şekil ve parçalarını tarif edin.",
+        "Çizimi kartla karşılaştırın; anlaşılmayan yönergeyi düzeltip rolleri değiştirin."
+      ],
+      "fields": [
+        "Gizli kart",
+        "Çizim alanı",
+        "Kullandığımız üç yönerge",
+        "Sorduğumuz açıklama sorusu",
+        "Düzelttiğimiz ifade"
+      ],
+      "form": "grup_yönerge_A4.pdf"
+    }
+  ],
+  "cards": [
+    {
+      "id": "bear",
+      "tr": "Oyuncak ayı",
+      "fr": "Ours en peluche",
+      "category": "Oyuncak",
+      "clue": "Yumuşaktır; Pofuduk da bu oyuncaktır.",
+      "action": "sarılmak",
+      "image": "images/bear.png"
+    },
+    {
+      "id": "ball",
+      "tr": "Top",
+      "fr": "Ballon",
+      "category": "Oyuncak",
+      "clue": "Yuvarlaktır; atılır, tutulur ve zıplar.",
+      "action": "atmak",
+      "image": "images/ball.png"
+    },
+    {
+      "id": "car",
+      "tr": "Oyuncak araba",
+      "fr": "Petite voiture",
+      "category": "Oyuncak",
+      "clue": "Tekerlekleri vardır; yerde sürülür.",
+      "action": "sürmek",
+      "image": "images/car.png"
+    },
+    {
+      "id": "top",
+      "tr": "Topaç",
+      "fr": "Toupie",
+      "category": "Oyuncak",
+      "clue": "Yere konunca kendi çevresinde döner.",
+      "action": "çevirmek",
+      "image": "images/top.png"
+    },
+    {
+      "id": "marble",
+      "tr": "Misket",
+      "fr": "Bille",
+      "category": "Oyuncak",
+      "clue": "Küçük, yuvarlak bir cam oyuncaktır; bilye de denir.",
+      "action": "yuvarlamak",
+      "image": "images/marble.png"
+    },
+    {
+      "id": "doll",
+      "tr": "Bez bebek",
+      "fr": "Poupée en tissu",
+      "category": "Oyuncak",
+      "clue": "Kumaştan yapılabilir; bir insanı temsil eder.",
+      "action": "sallamak",
+      "image": "images/doll.png"
+    },
+    {
+      "id": "kite",
+      "tr": "Uçurtma",
+      "fr": "Cerf-volant",
+      "category": "Oyuncak",
+      "clue": "İpi vardır; rüzgârla havada uçar.",
+      "action": "uçurmak",
+      "image": "images/kite.png"
+    },
+    {
+      "id": "train",
+      "tr": "Oyuncak tren",
+      "fr": "Train miniature",
+      "category": "Oyuncak",
+      "clue": "Vagonları vardır; rayların üzerinde ilerler.",
+      "action": "sürmek",
+      "image": "images/train.png"
+    },
+    {
+      "id": "puzzle",
+      "tr": "Yapboz",
+      "fr": "Puzzle",
+      "category": "Oyuncak",
+      "clue": "Dağınık parçaları birleşince resim tamamlanır.",
+      "action": "tamamlamak",
+      "image": "images/puzzle.png"
+    },
+    {
+      "id": "blocks",
+      "tr": "Bloklar",
+      "fr": "Blocs de construction",
+      "category": "Oyuncak",
+      "clue": "Üst üste ve yan yana dizilerek yapılar oluşturulur.",
+      "action": "dizmek",
+      "image": "images/blocks.png"
+    },
+    {
+      "id": "puppet",
+      "tr": "Kukla",
+      "fr": "Marionnette",
+      "category": "Oyuncak",
+      "clue": "Bir el veya ip yardımıyla hareket ettirilip konuşturulur.",
+      "action": "konuşturmak",
+      "image": "images/puppet.png"
+    },
+    {
+      "id": "robot",
+      "tr": "Oyuncak robot",
+      "fr": "Robot-jouet",
+      "category": "Oyuncak",
+      "clue": "Kollarını ve başını hareket ettirebilen bir makine oyuncağıdır.",
+      "action": "çalıştırmak",
+      "image": "images/robot.png"
+    },
+    {
+      "id": "yoyo",
+      "tr": "Yo-yo",
+      "fr": "Yo-yo",
+      "category": "Oyuncak",
+      "clue": "İpine bağlı kalıp aşağı iner, yukarı çıkar.",
+      "action": "indirip kaldırmak",
+      "image": "images/yoyo.png"
+    },
+    {
+      "id": "hoop",
+      "tr": "Çember",
+      "fr": "Cerceau",
+      "category": "Oyuncak",
+      "clue": "Büyük bir halkadır; döndürülebilir ve yuvarlanabilir.",
+      "action": "döndürmek",
+      "image": "images/hoop.png"
+    },
+    {
+      "id": "rope",
+      "tr": "Atlama ipi",
+      "fr": "Corde à sauter",
+      "category": "Oyuncak",
+      "clue": "İki ucundan tutulan uzun bir oyun aracıdır.",
+      "action": "çevirmek",
+      "image": "images/rope.png"
+    },
+    {
+      "id": "hop",
+      "tr": "Seksek",
+      "fr": "Marelle",
+      "category": "Oyun",
+      "clue": "Kareler ve küçük bir taş vardır; tek ayakla zıplanır.",
+      "action": "zıplamak",
+      "image": "images/hop.png"
+    },
+    {
+      "id": "hide",
+      "tr": "Saklambaç",
+      "fr": "Cache-cache",
+      "category": "Oyun",
+      "clue": "Biri sayar; arkadaşları saklanır, sonra ebe onları arar.",
+      "action": "saklanmak",
+      "image": "images/hide.png"
+    },
+    {
+      "id": "blind",
+      "tr": "Körebe",
+      "fr": "Colin-maillard",
+      "category": "Oyun",
+      "clue": "Ebenin gözleri bağlıdır; arkadaşlarını yakalamaya çalışır.",
+      "action": "yakalamak",
+      "image": "images/blind.png"
+    },
+    {
+      "id": "cloth",
+      "tr": "Mendil kapmaca",
+      "fr": "Jeu du foulard",
+      "category": "Oyun",
+      "clue": "İki takım ve ortada bir mendil vardır.",
+      "action": "mendili kapmak",
+      "image": "images/cloth.png"
+    },
+    {
+      "id": "jump_rope",
+      "tr": "İp atlama",
+      "fr": "Saut à la corde",
+      "category": "Oyun",
+      "clue": "Çevrilen ipin üzerinden sıçranır.",
+      "action": "ip atlamak",
+      "image": "images/jump_rope.png"
+    },
+    {
+      "id": "five_stones",
+      "tr": "Beştaş",
+      "fr": "Jeu des cinq pierres",
+      "category": "Oyun",
+      "clue": "Bir taş havaya atılırken yerden başka bir taş alınır.",
+      "action": "taşı yakalamak",
+      "image": "images/five_stones.png"
+    },
+    {
+      "id": "cloth_circle",
+      "tr": "Yağ satarım, bal satarım",
+      "fr": "Jeu du foulard en cercle",
+      "category": "Oyun",
+      "clue": "Halka hâlinde oturan çocukların arkasına mendil bırakılır.",
+      "action": "dolaşmak",
+      "image": "images/cloth_circle.png"
+    },
+    {
+      "id": "istop",
+      "tr": "İstop",
+      "fr": "Jeu de ballon : istop",
+      "category": "Oyun",
+      "clue": "Topla oynanır; istop denince oyuncular durur.",
+      "action": "durmak",
+      "image": "images/istop.png"
+    },
+    {
+      "id": "pretend",
+      "tr": "Evcilik",
+      "fr": "Jouer à la maison",
+      "category": "Oyun",
+      "clue": "Ev sahibi, misafir ve günlük yaşam rolleri canlandırılır.",
+      "action": "misafiri ağırlamak",
+      "image": "images/pretend.png"
+    },
+    {
+      "id": "circle_game",
+      "tr": "Kutu kutu pense",
+      "fr": "Ronde : Kutu kutu pense",
+      "category": "Oyun",
+      "clue": "Çocuklar el ele tutuşur, halka hâlinde döner.",
+      "action": "birlikte dönmek",
+      "image": "images/circle_game.png"
+    }
+  ],
+  "extra": [
+    {
+      "id": "satranc",
+      "tr": "Satranç",
+      "fr": "Échecs",
+      "category": "Oyun",
+      "clue": "Tahtasında şah, vezir ve başka taşlar vardır.",
+      "action": "düşünmek",
+      "image": "images/satranc.png"
+    },
+    {
+      "id": "dama",
+      "tr": "Dama",
+      "fr": "Dames",
+      "category": "Oyun",
+      "clue": "Kareli tahtada iki renkte taşlarla oynanır.",
+      "action": "hamle yapmak",
+      "image": "images/dama.png"
+    },
+    {
+      "id": "domino",
+      "tr": "Domino",
+      "fr": "Dominos",
+      "category": "Oyun",
+      "clue": "Üzerinde noktalar olan taşların uygun uçları birleştirilir.",
+      "action": "eşleştirmek",
+      "image": "images/domino.png"
+    },
+    {
+      "id": "oyun_hamuru",
+      "tr": "Oyun hamuru",
+      "fr": "Pâte à modeler",
+      "category": "Oyuncak",
+      "clue": "Yumuşaktır; yoğrularak biçim verilir.",
+      "action": "şekillendirmek",
+      "image": "images/oyun_hamuru.png"
+    },
+    {
+      "id": "oyuncak_telefon",
+      "tr": "Oyuncak telefon",
+      "fr": "Téléphone-jouet",
+      "category": "Oyuncak",
+      "clue": "Konuşma oyunu için kullanılan bir telefon modelidir.",
+      "action": "konuşmak",
+      "image": "images/oyuncak_telefon.png"
+    },
+    {
+      "id": "oyuncak_mutfak",
+      "tr": "Oyuncak mutfak",
+      "fr": "Cuisine-jouet",
+      "category": "Oyuncak",
+      "clue": "Yemek hazırlama rolleri için küçük tezgâh ve kaplar vardır.",
+      "action": "hazırlamak",
+      "image": "images/oyuncak_mutfak.png"
+    }
+  ],
+  "materials": {
+    "notlar": [
+      "Öğrenci sayfası: bak, yaz ve boya · A4",
+      "ogrenci_not_A4.pdf?v=ogrenci3"
+    ],
+    "gorsel": [
+      "Oyun sandığı görseli · A4",
+      "oyunsandigi_resmi_A4.pdf"
+    ],
+    "kartlar": [
+      "Oyuncak ve oyun kartları · A4",
+      "kelime_kartlari_A4.pdf"
+    ],
+    "oyunlar": [
+      "Geleneksel oyunları tanıyalım · A4",
+      "oyunlari_tani_A4.pdf"
+    ],
+    "eslestirme": [
+      "Eşleştirme formu · A4",
+      "eslestirme_A4.pdf"
+    ],
+    "boyama": [
+      "Boya ve anlat · A4",
+      "boya_ve_anlat_A4.pdf?v=pofuduk2"
+    ],
+    "atolye": [
+      "Oyuncak tasarım formu · A4",
+      "oyuncak_atolyesi_A4.pdf"
+    ],
+    "bulmaca": [
+      "Sözcük avı · A4",
+      "kelime_bulmaca_A4.pdf?v=trfr2"
+    ],
+    "bulmaca_cevap": [
+      "Bulmaca cevap anahtarı · A4",
+      "kelime_bulmaca_cevap_A4.pdf?v=trfr2"
+    ],
+    "tahmin": [
+      "Anlat, sor ve bul · A4",
+      "anlat_sor_bul_A4.pdf"
+    ],
+    "cikis": [
+      "Çıkış bileti · A4",
+      "cikis_A4.pdf"
+    ],
+    "gozlem": [
+      "Öğretmen gözlem formu · A4",
+      "gozlem_A4.pdf"
+    ],
+    "sarki_primary": [
+      "Eksik oyun ve hareket sözcükleri · A4",
+      "sarki_eksik_primary_A4.pdf"
+    ],
+    "sarki_objects": [
+      "Eksik oyuncak ve nesne adları · A4",
+      "sarki_eksik_objects_A4.pdf"
+    ],
+    "sarki_mixed": [
+      "Eksik sözler · karışık · A4",
+      "sarki_eksik_mixed_A4.pdf"
+    ]
+  },
+  "roles": {
+    "ela": "Ela",
+    "mavi": "Mavi",
+    "pofuduk": "Pofuduk",
+    "narrator": "Anlatıcı"
+  },
+  "reading": [
+    {
+      "speaker": "narrator",
+      "text": "Bir sabah Ela ile Mavi, köyün bahçesinde eski bir oyuncak sandığı buldu. Tam o sırada sandıktan boğuk bir ses geldi.",
+      "fr": "Un matin, Ela et Mavi trouvèrent un vieux coffre à jouets dans le jardin du village. Soudain, une voix sourde sortit du coffre."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Merhaba! Beni buradan çıkarır mısınız?",
+      "fr": "Bonjour ! Vous pouvez m’aider à sortir ?"
+    },
+    {
+      "speaker": "ela",
+      "text": "Mavi, bak! Konuşan bir oyuncak ayı!",
+      "fr": "Mavi, regarde ! Un ours en peluche qui parle !"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Merhaba, küçük ayı! Adın ne?",
+      "fr": "Bonjour, petit ours ! Comment t’appelles-tu ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Ben Pofuduk. Bu da oyun sandığım. Sizin adınız ne?",
+      "fr": "Je m’appelle Pofuduk. Et voici mon coffre de jeux. Comment vous appelez-vous ?"
+    },
+    {
+      "speaker": "ela",
+      "text": "Ben Ela. Bu da arkadaşım Mavi.",
+      "fr": "Moi, c’est Ela. Et voici mon ami Mavi."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Sandığında ne var, Pofuduk?",
+      "fr": "Qu’y a-t-il dans ton coffre, Pofuduk ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Oyuncaklar var. Bir de sandığa sığmayan bir sır!",
+      "fr": "Des jouets. Et un secret trop grand pour entrer dans le coffre !"
+    },
+    {
+      "speaker": "ela",
+      "text": "Sandığa sığmayan bir sır mı? Çok merak ettim!",
+      "fr": "Un secret trop grand pour le coffre ? J’ai très envie de le découvrir !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Önce oyuncakları tanıyalım. Sonra sırrı birlikte buluruz.",
+      "fr": "Découvrons d’abord les jouets. Ensuite, nous trouverons le secret ensemble."
+    },
+    {
+      "speaker": "ela",
+      "text": "Bu topu biliyorum. Topla oynamayı seviyorum.",
+      "fr": "Je connais ce ballon. J’aime jouer au ballon."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Bu da oyuncak araba. Tekerlekleri var!",
+      "fr": "Et voici une petite voiture. Elle a des roues !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Şuna bakın. Bu bir topaç. Çevirdiğimizde kendi etrafında döner.",
+      "fr": "Regardez ceci. C’est une toupie. Quand on la fait tourner, elle tourne sur elle-même."
+    },
+    {
+      "speaker": "ela",
+      "text": "Ne güzel dönüyor! Önce hızlı, sonra yavaş...",
+      "fr": "Comme elle tourne bien ! D’abord vite, puis lentement…"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Ben de topaç gibi dönebilir miyim?",
+      "fr": "Est-ce que je peux tourner comme une toupie, moi aussi ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Yavaş, Mavi! Bırak, topaç dönsün.",
+      "fr": "Doucement, Mavi ! Laissons tourner la toupie."
+    },
+    {
+      "speaker": "ela",
+      "text": "Bu küçük cam topların adı ne?",
+      "fr": "Comment s’appellent ces petites boules en verre ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bunlar bilye. Misket de denir. Bir bilyeyle başka bir bilyeyi vurmaya çalışırız.",
+      "fr": "Ce sont des billes. En turc, on dit « bilye » ou « misket ». On essaie de toucher une bille avec une autre."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Şu bebek de çok güzel. Neden yumuşak?",
+      "fr": "Cette poupée est très jolie aussi. Pourquoi est-elle douce ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Çünkü bu bir bez bebek. Kumaştan yapılmış.",
+      "fr": "Parce que c’est une poupée de chiffon. Elle est faite en tissu."
+    },
+    {
+      "speaker": "ela",
+      "text": "Topaç, bilye, bez bebek... Bu oyuncaklarla eskiden de oynanır mıydı?",
+      "fr": "Une toupie, des billes, une poupée de chiffon… On jouait déjà avec ces jouets autrefois ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evet. Eskiden çocuklar da bunlarla oynardı. Bugün de oynayabiliriz.",
+      "fr": "Oui. Autrefois, les enfants jouaient aussi avec ces jouets. Nous pouvons encore y jouer aujourd’hui."
+    },
+    {
+      "speaker": "ela",
+      "text": "Bakın, küçük bir tren! Vagonları birbirine bağlı.",
+      "fr": "Regardez, un petit train ! Ses wagons sont attachés les uns aux autres."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bu bir oyuncak tren. Rayların üzerinde ilerler. Arabadan farklı olarak rayları izler.",
+      "fr": "C’est un train miniature. Il avance sur les rails. Contrairement à la voiture, il suit les rails."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Burada bir resim var ama parçaları dağılmış!",
+      "fr": "Il y a une image, mais les pièces sont éparpillées !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bu bir yapboz. Uygun parçaları birleştirince resim tamamlanır.",
+      "fr": "C’est un puzzle. Quand on assemble les bonnes pièces, l’image est complète."
+    },
+    {
+      "speaker": "ela",
+      "text": "Bu renkli bloklarla küçük bir ev yapabilir miyim?",
+      "fr": "Est-ce que je peux construire une petite maison avec ces blocs colorés ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Elbette! Blokları üst üste koyabilir, yan yana dizebilirsin. Aynı parçalarla başka şeyler de yapabilirsin.",
+      "fr": "Bien sûr ! Tu peux empiler les blocs ou les placer côte à côte. Avec les mêmes pièces, tu peux construire autre chose."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Bu oyuncak başını oynatıyor! Onu sen mi hareket ettiriyorsun?",
+      "fr": "Ce jouet bouge la tête ! C’est toi qui le fais bouger ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evet, bu bir kukla. Elimle hareket ettiriyorum. Kuklalarla kendi hikâyemizi anlatabiliriz.",
+      "fr": "Oui, c’est une marionnette. Je la fais bouger avec ma main. Avec des marionnettes, on peut raconter notre propre histoire."
+    },
+    {
+      "speaker": "ela",
+      "text": "Şunun kolları hareket ediyor. Bu bir robot mu?",
+      "fr": "Les bras de celui-ci bougent. C’est un robot ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evet, bir oyuncak robot. Kollarını kaldırıyor, başını çeviriyor.",
+      "fr": "Oui, c’est un robot-jouet. Il lève les bras et tourne la tête."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Bu küçük oyuncak ipten ayrılmadan inip çıkıyor!",
+      "fr": "Ce petit jouet descend et remonte sans se détacher de sa ficelle !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Adı yo-yo. Aşağı inerken ipi açılır. Yukarı çıkarken ipi yeniden sarılır.",
+      "fr": "Il s’appelle un yo-yo. La ficelle se déroule quand il descend et s’enroule quand il remonte."
+    },
+    {
+      "speaker": "ela",
+      "text": "Bu büyük halkanın adı ne?",
+      "fr": "Comment s’appelle ce grand anneau ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bu bir çember. Onu yerde yuvarlayabiliriz. Bak, dönerek ilerliyor!",
+      "fr": "C’est un cerceau. On peut le faire rouler sur le sol. Regarde, il avance en tournant !"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Bu ipin iki ucunda da tutacak var. Bununla ne yapıyoruz?",
+      "fr": "Cette corde a une poignée à chaque bout. Qu’est-ce qu’on fait avec ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bu bir atlama ipi. Birazdan çocukların ip atlarken nasıl zıpladığını da göreceğiz.",
+      "fr": "C’est une corde à sauter. Tout à l’heure, nous verrons aussi les enfants sauter à la corde."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Pofuduk, bu oyuncak çok yassı. Tekerleği de yok. Nasıl hareket edecek?",
+      "fr": "Pofuduk, ce jouet est tout plat. Il n’a pas de roues non plus. Comment va-t-il bouger ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bu bir uçurtma. Bak, bir ipi ve uzun bir kuyruğu var.",
+      "fr": "C’est un cerf-volant. Regarde, il a une ficelle et une longue queue."
+    },
+    {
+      "speaker": "ela",
+      "text": "Rüzgâr çıktı. Uçurtma ne güzel süzülüyor!",
+      "fr": "Le vent se lève. Comme le cerf-volant plane bien !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "İpi biraz daha aç, Ela. Ben de uçurtmayı izleyeyim.",
+      "fr": "Déroule encore un peu de fil, Ela. Moi, je regarde le cerf-volant."
+    },
+    {
+      "speaker": "ela",
+      "text": "Tamam. İpi yavaşça açıyorum!",
+      "fr": "D’accord. Je déroule doucement le fil !"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Uçuyor! Benim gibi uçuyor!",
+      "fr": "Il vole ! Il vole comme moi !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Sen kanatlarınla uçuyorsun, Mavi. Uçurtmayı rüzgâr havada tutuyor.",
+      "fr": "Toi, tu voles avec tes ailes, Mavi. Le cerf-volant, c’est le vent qui le maintient en l’air."
+    },
+    {
+      "speaker": "ela",
+      "text": "Ben uçurtma uçurmayı seviyorum. Sen hangi oyuncağı seviyorsun, Pofuduk?",
+      "fr": "J’aime faire voler un cerf-volant. Et toi, Pofuduk, quel jouet aimes-tu ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Ben topacı seviyorum. Ama şimdi size oyuncaksız oynanan oyunları da göstermek istiyorum.",
+      "fr": "Moi, j’aime la toupie. Mais maintenant, je voudrais aussi vous montrer des jeux qui se jouent sans jouets."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Oyuncak olmadan da oyun oynanır mı?",
+      "fr": "On peut jouer sans jouets ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Şu çocuklara bakın. Yere kareler çizmişler. Bu oyunun adı seksek.",
+      "fr": "Regardez ces enfants. Ils ont dessiné des cases au sol. Ce jeu s’appelle la marelle."
+    },
+    {
+      "speaker": "ela",
+      "text": "Şu karede küçük bir taş var.",
+      "fr": "Il y a une petite pierre dans cette case."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evet. Sonra taşın olduğu kareye basmadan tek ayakla ilerliyorlar.",
+      "fr": "Oui. Puis ils avancent à cloche-pied sans poser le pied dans la case où se trouve le caillou."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Çizgiye basınca ne oluyor?",
+      "fr": "Que se passe-t-il si on marche sur une ligne ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Sıra öteki oyuncuya geçiyor. Kuralları başlamadan birlikte belirliyorlar.",
+      "fr": "Le tour passe à l’autre joueur. Ils se mettent d’accord sur les règles avant de commencer."
+    },
+    {
+      "speaker": "ela",
+      "text": "Şimdi anladım. Seksekte çizgiler, küçük bir taş ve dengeli adımlar var.",
+      "fr": "J’ai compris. Pour la marelle, il y a des lignes, un petit caillou et des pas en équilibre."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Bir de sıranı beklemek var!",
+      "fr": "Et il faut aussi attendre son tour !"
+    },
+    {
+      "speaker": "ela",
+      "text": "Doğru, Mavi. Ben de sıram gelince deniyorum. Bak, tek ayak üstündeyim!",
+      "fr": "C’est vrai, Mavi. J’essaie à mon tour. Regarde, je suis sur un pied !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Harika! Şimdi başka bir oyuna bakalım.",
+      "fr": "Bravo ! Découvrons maintenant un autre jeu."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Çocuklardan biri ağaca dönmüş. Ötekiler nereye gitti?",
+      "fr": "Un des enfants est tourné vers l’arbre. Où sont passés les autres ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Saklandılar. Saklambaç oynuyorlar.",
+      "fr": "Ils se sont cachés. Ils jouent à cache-cache."
+    },
+    {
+      "speaker": "ela",
+      "text": "Ebe gözlerini kapatıp sayıyor. Arkadaşları da saklanıyor.",
+      "fr": "Le joueur qui cherche ferme les yeux et compte. Ses amis se cachent."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Sonra onları arıyor, değil mi?",
+      "fr": "Ensuite, il les cherche, c’est ça ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evet. Saymayı bitirince gözlerini açıp arkadaşlarını arayacak.",
+      "fr": "Oui. Quand il aura fini de compter, il ouvrira les yeux pour chercher ses amis."
+    },
+    {
+      "speaker": "ela",
+      "text": "Ben de çalının arkasına saklandım. Beni görebiliyor musun, Mavi?",
+      "fr": "Moi aussi, je me suis cachée derrière le buisson. Est-ce que tu me vois, Mavi ?"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Seni gördüm, Ela!",
+      "fr": "Je t’ai vue, Ela !"
+    },
+    {
+      "speaker": "ela",
+      "text": "Buldun beni! Bir dahaki sefere daha iyi saklanırım.",
+      "fr": "Tu m’as trouvée ! La prochaine fois, je me cacherai mieux."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Saklambaçta biri saklanır, biri arar. Oyunun adını bu iki sözcükle hatırlayabiliriz.",
+      "fr": "À cache-cache, les uns se cachent et un autre cherche. Ces deux actions peuvent nous aider à retenir le nom du jeu en turc."
+    },
+    {
+      "speaker": "ela",
+      "text": "Bu çocuk da gözlerini kapatmış. Yine saklambaç mı oynuyorlar?",
+      "fr": "Cet enfant aussi a les yeux fermés. Ils jouent encore à cache-cache ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Hayır. Bu oyunun adı körebe. Burada ebenin gözleri bir bezle kapalı.",
+      "fr": "Non. Ce jeu s’appelle colin-maillard. Ici, le joueur a les yeux bandés avec un tissu."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Arkadaşları saklanmıyor. Yakınında duruyorlar.",
+      "fr": "Ses amis ne se cachent pas. Ils restent près de lui."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Ebe, gözleri kapalıyken arkadaşlarını yakalamaya çalışıyor.",
+      "fr": "Le joueur aux yeux bandés essaie d’attraper ses camarades."
+    },
+    {
+      "speaker": "ela",
+      "text": "Peki, etrafındaki eşyalara çarpmaz mı?",
+      "fr": "Mais ne risque-t-il pas de se cogner contre les objets autour de lui ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bu yüzden boş ve düz bir alan seçmişler. Yavaş hareket ediyorlar.",
+      "fr": "C’est pour cela qu’ils ont choisi un espace plat et dégagé. Ils se déplacent doucement."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Şimdi farkı anladım! Saklambaç oynarken gözlerini açıp arıyorsun. Körebe oyununda ise gözlerin kapalı. Arkadaşlarını yakalamaya çalışıyorsun.",
+      "fr": "Je comprends la différence ! À cache-cache, on ouvre les yeux pour chercher. À colin-maillard, on garde les yeux bandés et on essaie d’attraper ses camarades."
+    },
+    {
+      "speaker": "ela",
+      "text": "İki oyunda da ebe var ama kuralları farklı.",
+      "fr": "Dans les deux jeux, un joueur a un rôle particulier, mais les règles sont différentes."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Aferin! Oyunları yalnızca adlarından değil, nasıl oynandıklarından da tanıyorsunuz.",
+      "fr": "Bravo ! Vous reconnaissez les jeux par leur nom, mais aussi par la façon d’y jouer."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Ortada bir mendil var. Bu kez oyuncağımız mendil mi?",
+      "fr": "Il y a un mouchoir au milieu. Cette fois, notre jouet, c’est le mouchoir ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Mendil, bu oyunda kullandığımız eşya. Oyunun adı mendil kapmaca.",
+      "fr": "Le mouchoir est l’objet utilisé dans ce jeu. En turc, il s’appelle « mendil kapmaca ». Il ressemble au jeu du béret."
+    },
+    {
+      "speaker": "ela",
+      "text": "İki takım karşılıklı bekliyor. Bir çocuk da ortada mendili tutuyor.",
+      "fr": "Deux équipes attendent face à face. Un enfant tient le mouchoir au milieu."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Her takımdan bir oyuncu ortaya geliyor. İkisi de mendili alıp kendi takımına dönmeye çalışıyor.",
+      "fr": "Un joueur de chaque équipe s’avance au milieu. Tous les deux essaient de prendre le mouchoir et de rejoindre leur équipe."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Mendili alanın peşinden neden koşulur?",
+      "fr": "Pourquoi court-on après celui qui prend le foulard ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Kendi çizgisine dönmeden ona dokunmaya çalışıyor. Kimseyi itmeden oynuyorlar.",
+      "fr": "Il essaie de le toucher avant qu’il revienne derrière sa ligne. Ils jouent sans se pousser."
+    },
+    {
+      "speaker": "ela",
+      "text": "Demek ki burada iki takım, bir mendil ve karşılıklı iki çizgi var.",
+      "fr": "Il y a donc deux équipes, un mouchoir et deux lignes face à face."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Seksek oynarken çocuklar zıplıyor. Saklambaç oynarken saklanıyorlar. Körebede ebe arkadaşlarını yakalamaya çalışıyor. Burada da mendili kapıyorlar!",
+      "fr": "À la marelle, les enfants sautent. À cache-cache, ils se cachent. À colin-maillard, le joueur aux yeux bandés essaie d’attraper ses camarades. Ici, ils attrapent le foulard !"
+    },
+    {
+      "speaker": "ela",
+      "text": "Pofuduk, sandıktaki atlama ipini burada kullanıyorlar!",
+      "fr": "Pofuduk, ils utilisent ici la corde à sauter du coffre !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evet. Bu oyun ip atlama. Çocuk ipi çeviriyor, ip ayaklarına gelince zıplıyor.",
+      "fr": "Oui, c’est le saut à la corde. L’enfant fait tourner la corde et saute quand elle arrive près de ses pieds."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Seksekte de zıplıyoruz ama burada kareler yerine ip var!",
+      "fr": "À la marelle aussi, on saute, mais ici il y a une corde à la place des cases !"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Yerde beş küçük taş var. Bunlarla da oyun oynanır mı?",
+      "fr": "Il y a cinq petites pierres par terre. Peut-on aussi jouer avec ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evet, bu oyunun adı beştaş. Bir taşı havaya atıp yerdeki taşı alıyor, sonra havadaki taşı yakalıyoruz.",
+      "fr": "Oui, ce jeu s’appelle le beştaş. On lance une pierre en l’air, on ramasse celle qui est au sol, puis on rattrape la première."
+    },
+    {
+      "speaker": "ela",
+      "text": "Taşı at, yerden al, sonra yakala. Hareketlerin sırası önemli!",
+      "fr": "Lance la pierre, ramasse, puis rattrape. L’ordre des gestes est important !"
+    },
+    {
+      "speaker": "ela",
+      "text": "Bu çocuklar halka olmuş, oturuyor. Biri de arkalarında dolaşıyor.",
+      "fr": "Ces enfants sont assis en cercle. Un autre marche derrière eux."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Yağ satarım, bal satarım oynuyorlar. Ebe, bir arkadaşının arkasına mendili bırakıyor.",
+      "fr": "Ils jouent à Yağ satarım, bal satarım. Le meneur dépose un foulard derrière un camarade."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Mendili fark eden çocuk kalkıp ebenin peşinden koşuyor!",
+      "fr": "L’enfant qui remarque le foulard se lève et court derrière le meneur !"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Şimdi de topu havaya attılar. Birinin adını söylediler!",
+      "fr": "Maintenant, ils ont lancé le ballon en l’air et prononcé le prénom d’un joueur !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Bu oyunun adı istop. Adı söylenen çocuk topu almaya çalışır. Topu alınca istop diye seslenir.",
+      "fr": "Ce jeu s’appelle istop. L’enfant dont on a dit le prénom essaie de récupérer le ballon. Quand il l’a, il crie « istop »."
+    },
+    {
+      "speaker": "ela",
+      "text": "İstop! O zaman herkes olduğu yerde duruyor.",
+      "fr": "Istop ! Alors, tout le monde s’arrête sur place."
+    },
+    {
+      "speaker": "ela",
+      "text": "Bu çocuklar da küçük bir masa hazırlamış. Ne oynuyorlar?",
+      "fr": "Ces enfants ont préparé une petite table. À quoi jouent-ils ?"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Evcilik oynuyorlar. Biri misafir, biri ev sahibi oluyor. Hayal ederek konuşuyorlar.",
+      "fr": "Ils jouent à la maison. L’un est l’invité, l’autre l’accueille. Ils inventent une situation et dialoguent."
+    },
+    {
+      "speaker": "ela",
+      "text": "Ben ev sahibi olayım. Hoş geldin, Mavi! Buyur, otur.",
+      "fr": "Je vais accueillir l’invité. Bienvenue, Mavi ! Je t’en prie, assieds-toi."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Hoş bulduk, Ela! Beni oyuna çağırdığın için teşekkür ederim.",
+      "fr": "Merci de ton accueil, Ela ! Merci de m’avoir invité à jouer."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Bakın, çocuklar el ele tutuşup halka olmuş!",
+      "fr": "Regardez, les enfants se sont donné la main pour former un cercle !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Kutu kutu pense oynuyorlar. Tekerlemeyi söyleyerek birlikte dönüyorlar.",
+      "fr": "Ils jouent à Kutu kutu pense. Ils tournent ensemble en récitant une comptine."
+    },
+    {
+      "speaker": "ela",
+      "text": "Ne çok oyun öğrendik! Kimi oyunda zıplıyoruz, kiminde saklanıyor, kiminde de birlikte dönüyoruz.",
+      "fr": "Nous avons découvert tant de jeux ! Dans certains, on saute, dans d’autres, on se cache ou on tourne ensemble."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Şimdi oyun sandığımın sırrını bulabilecek misiniz?",
+      "fr": "Alors, allez-vous trouver le secret de mon coffre de jeux ?"
+    },
+    {
+      "speaker": "ela",
+      "text": "Sanırım sırrı buldum, Pofuduk. Sandığa oyuncakları koyabiliriz.",
+      "fr": "Je crois que j’ai trouvé le secret, Pofuduk. On peut ranger les jouets dans le coffre."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Ama oyunları sandığa koyamayız! Seksek ve saklambaç oyuncak değil, oyun!",
+      "fr": "Mais on ne peut pas ranger les jeux dans le coffre ! La marelle et cache-cache sont des jeux, pas des jouets !"
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Doğru! Oyuncaklar sandıkta durabilir. Oyunları ise öğrenir, anlatır ve birlikte oynarız.",
+      "fr": "Exactement ! On peut garder les jouets dans le coffre. Les jeux, eux, s’apprennent, se racontent et se jouent ensemble."
+    },
+    {
+      "speaker": "ela",
+      "text": "Ben uçurtmayı seviyorum. Oyunlardan da sekseği anlatmak istiyorum.",
+      "fr": "Moi, j’aime le cerf-volant. Et parmi les jeux, j’aimerais expliquer la marelle."
+    },
+    {
+      "speaker": "mavi",
+      "text": "Ben saklambacı anlatırım. Önce biri gözlerini kapatıp sayar. Sonra arkadaşlarını arar.",
+      "fr": "Moi, je vais expliquer cache-cache. D’abord, quelqu’un ferme les yeux et compte. Ensuite, il cherche ses amis."
+    },
+    {
+      "speaker": "pofuduk",
+      "text": "Çok güzel anlattın! Peki, bizi izleyen arkadaşlarımız hangi oyuncağı seviyor?",
+      "fr": "Tu as très bien expliqué ! Et vous qui nous regardez, quel jouet aimez-vous ?"
+    },
+    {
+      "speaker": "ela",
+      "text": "Siz de bir oyuncak seçin. Adını söylemeden anlatın. Biz bulmaya çalışalım!",
+      "fr": "Choisissez aussi un jouet. Décrivez-le sans dire son nom. Nous allons essayer de le trouver !"
+    },
+    {
+      "speaker": "mavi",
+      "text": "Bir de oyun seçin. Kimler oynuyor? Ne yapıyorlar? Anlat bakalım!",
+      "fr": "Choisissez aussi un jeu. Qui joue ? Que font les joueurs ? À vous de raconter !"
+    }
+  ],
+  "stops": [
+    {
+      "id": 78,
+      "time": 533.82,
+      "prompt": "Şimdi oyun sandığını birlikte hatırlayalım! Hangi oyuncak rüzgârla havada süzülür?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Uçurtma! Uçurtmayı rüzgâr havada tutar."
+    },
+    {
+      "id": 80,
+      "time": 547.43,
+      "prompt": "Yere kareler çizilir. Küçük bir taş kullanılır. Tek ayakla ilerlenir. Bu oyunun adı ne?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Bu oyun seksek!"
+    },
+    {
+      "id": 82,
+      "time": 559.78,
+      "prompt": "Biri gözlerini kapatıp sayar. Arkadaşları saklanır. Sonra onları arar. Hangi oyun?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Saklambaç! Saklambaçta biri saklanır, biri arar."
+    },
+    {
+      "id": 84,
+      "time": 574.38,
+      "prompt": "Ebenin gözleri bir bezle kapalı. Arkadaşlarını yakalamaya çalışıyor. Bu hangi oyun?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Körebe! Ebe, gözleri kapalıyken arkadaşlarını yakalamaya çalışır."
+    },
+    {
+      "id": 86,
+      "time": 588.68,
+      "prompt": "İki takım, karşılıklı iki çizgi ve ortada bir mendil var. Bu oyunun adı ne?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Mendil kapmaca!"
+    },
+    {
+      "id": 136,
+      "time": 598.45,
+      "prompt": "Parçalarını birleştirince bir resim oluşuyor. Bu hangi oyuncak?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Bu bir yapboz! Parçaları birleştirip resmi tamamlıyoruz."
+    },
+    {
+      "id": 138,
+      "time": 610.3,
+      "prompt": "Elimizle hareket ettirip hikâye anlattığımız oyuncağın adı ne?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Kukla! Kuklayla farklı sesler ve hareketler yapabiliriz."
+    },
+    {
+      "id": 140,
+      "time": 623.88,
+      "prompt": "Bir çocuk ipi çeviriyor, ip ayaklarına gelince zıplıyor. Hangi oyun?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "İp atlama!"
+    },
+    {
+      "id": 142,
+      "time": 633.75,
+      "prompt": "Topu alan çocuk istop diye seslenince herkes duruyor. Hangi oyun?",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "İstop! Topla oynanan bir oyun."
+    },
+    {
+      "id": 88,
+      "time": 646.89,
+      "prompt": "Sen hangi oyuncağı seviyorsun? Bir özelliğini söyle. Sonra bir oyun seç ve arkadaşına anlat.",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Önce kimler oynar, sonra ne yaparlar? İstersen, benimle oynar mısın, diye de sorabilirsin."
+    },
+    {
+      "id": 89,
+      "time": 659.74,
+      "prompt": "Önce kimler oynar, sonra ne yaparlar? İstersen, benimle oynar mısın, diye de sorabilirsin.",
+      "followup": "Önce kendi cevabını söyle; sonra gerekirse örnek cevabı aç.",
+      "expected": "Ela, Mavi ve Pofuduk, oyun sandığının sırrını birlikte buldu. Bu serüvenden geriye yeni sözcükler, yeni oyunlar ve anlatacak güzel anılar kaldı."
+    }
+  ],
+  "practiceStart": 528.4166666666666,
+  "puzzle": {
+    "grid": [
+      [
+        "N",
+        "S",
+        "B",
+        "O",
+        "B",
+        "Y",
+        "V",
+        "E",
+        "N",
+        "K",
+        "Y",
+        "Y",
+        "P",
+        "Z",
+        "İ",
+        "M"
+      ],
+      [
+        "Ğ",
+        "Ş",
+        "E",
+        "Ç",
+        "E",
+        "E",
+        "Ü",
+        "E",
+        "S",
+        "Ö",
+        "M",
+        "T",
+        "A",
+        "J",
+        "Ğ",
+        "A"
+      ],
+      [
+        "B",
+        "Y",
+        "Ş",
+        "E",
+        "B",
+        "L",
+        "Y",
+        "V",
+        "A",
+        "R",
+        "S",
+        "V",
+        "Y",
+        "T",
+        "C",
+        "V"
+      ],
+      [
+        "L",
+        "A",
+        "T",
+        "M",
+        "E",
+        "R",
+        "A",
+        "C",
+        "N",
+        "E",
+        "E",
+        "Ç",
+        "L",
+        "A",
+        "İ",
+        "İ"
+      ],
+      [
+        "O",
+        "P",
+        "A",
+        "B",
+        "K",
+        "O",
+        "K",
+        "İ",
+        "D",
+        "B",
+        "K",
+        "H",
+        "A",
+        "R",
+        "C",
+        "G"
+      ],
+      [
+        "K",
+        "B",
+        "Ş",
+        "E",
+        "O",
+        "B",
+        "A",
+        "L",
+        "I",
+        "E",
+        "S",
+        "Ö",
+        "Ş",
+        "A",
+        "İ",
+        "Ğ"
+      ],
+      [
+        "L",
+        "O",
+        "Ç",
+        "R",
+        "Ğ",
+        "O",
+        "L",
+        "İ",
+        "K",
+        "D",
+        "E",
+        "K",
+        "M",
+        "B",
+        "L",
+        "L"
+      ],
+      [
+        "A",
+        "Z",
+        "R",
+        "I",
+        "B",
+        "T",
+        "A",
+        "K",
+        "L",
+        "Ö",
+        "K",
+        "E",
+        "A",
+        "A",
+        "J",
+        "I"
+      ],
+      [
+        "R",
+        "U",
+        "J",
+        "K",
+        "Ç",
+        "O",
+        "M",
+        "E",
+        "D",
+        "J",
+        "R",
+        "L",
+        "K",
+        "M",
+        "C",
+        "P"
+      ],
+      [
+        "M",
+        "Z",
+        "L",
+        "T",
+        "A",
+        "Ü",
+        "A",
+        "L",
+        "U",
+        "Ç",
+        "U",
+        "R",
+        "T",
+        "M",
+        "A",
+        "O"
+      ],
+      [
+        "M",
+        "A",
+        "R",
+        "O",
+        "B",
+        "L",
+        "K",
+        "A",
+        "S",
+        "G",
+        "D",
+        "P",
+        "K",
+        "Ş",
+        "U",
+        "F"
+      ],
+      [
+        "İ",
+        "E",
+        "Ü",
+        "P",
+        "D",
+        "Ö",
+        "N",
+        "M",
+        "E",
+        "K",
+        "I",
+        "K",
+        "D",
+        "Ü",
+        "D",
+        "U"
+      ],
+      [
+        "S",
+        "T",
+        "K",
+        "Ö",
+        "T",
+        "R",
+        "G",
+        "V",
+        "T",
+        "O",
+        "P",
+        "A",
+        "Ç",
+        "R",
+        "İ",
+        "D"
+      ],
+      [
+        "K",
+        "R",
+        "Z",
+        "M",
+        "E",
+        "N",
+        "D",
+        "İ",
+        "L",
+        "K",
+        "U",
+        "K",
+        "L",
+        "A",
+        "K",
+        "U"
+      ],
+      [
+        "E",
+        "E",
+        "S",
+        "A",
+        "K",
+        "L",
+        "A",
+        "M",
+        "B",
+        "A",
+        "Ç",
+        "O",
+        "G",
+        "Ğ",
+        "J",
+        "K"
+      ],
+      [
+        "T",
+        "N",
+        "D",
+        "E",
+        "F",
+        "K",
+        "M",
+        "Ç",
+        "V",
+        "A",
+        "S",
+        "Ö",
+        "E",
+        "U",
+        "E",
+        "L"
+      ]
+    ],
+    "paths": {
+      "SAKLAMBAÇ": [
+        [
+          14,
+          2
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          14,
+          10
+        ]
+      ],
+      "YAKALAMAK": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "PAYLAŞMAK": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          12
+        ]
+      ],
+      "POFUDUK": [
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "UÇURTMA": [
+        [
+          9,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          9,
+          14
+        ]
+      ],
+      "BLOKLAR": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ]
+      ],
+      "EVCİLİK": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "MİSKET": [
+        [
+          10,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "YAPBOZ": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "ÇEMBER": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "SEKSEK": [
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "KÖREBE": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "MENDİL": [
+        [
+          13,
+          3
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          13,
+          8
+        ]
+      ],
+      "BEŞTAŞ": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "SANDIK": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "DÖNMEK": [
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          9
+        ]
+      ],
+      "ARABA": [
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          13
+        ]
+      ],
+      "TOPAÇ": [
+        [
+          12,
+          8
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          12,
+          12
+        ]
+      ],
+      "BEBEK": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "KUKLA": [
+        [
+          13,
+          9
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          13,
+          13
+        ]
+      ],
+      "ROBOT": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "MAVİ": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          15
+        ]
+      ],
+      "TREN": [
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "ELA": [
+        [
+          8,
+          7
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          10,
+          7
+        ]
+      ],
+      "TOP": [
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          11,
+          3
+        ]
+      ]
+    },
+    "words": [
+      {
+        "tr": "ELA",
+        "label": "Ela",
+        "fr": "Ela"
+      },
+      {
+        "tr": "MAVİ",
+        "label": "Mavi",
+        "fr": "Mavi"
+      },
+      {
+        "tr": "POFUDUK",
+        "label": "Pofuduk",
+        "fr": "Pofuduk"
+      },
+      {
+        "tr": "TOP",
+        "label": "Top",
+        "fr": "Ballon"
+      },
+      {
+        "tr": "ARABA",
+        "label": "Araba",
+        "fr": "Voiture"
+      },
+      {
+        "tr": "TOPAÇ",
+        "label": "Topaç",
+        "fr": "Toupie"
+      },
+      {
+        "tr": "MİSKET",
+        "label": "Misket",
+        "fr": "Bille"
+      },
+      {
+        "tr": "BEBEK",
+        "label": "Bebek",
+        "fr": "Poupée"
+      },
+      {
+        "tr": "UÇURTMA",
+        "label": "Uçurtma",
+        "fr": "Cerf-volant"
+      },
+      {
+        "tr": "TREN",
+        "label": "Tren",
+        "fr": "Train"
+      },
+      {
+        "tr": "YAPBOZ",
+        "label": "Yapboz",
+        "fr": "Puzzle"
+      },
+      {
+        "tr": "BLOKLAR",
+        "label": "Bloklar",
+        "fr": "Blocs"
+      },
+      {
+        "tr": "KUKLA",
+        "label": "Kukla",
+        "fr": "Marionnette"
+      },
+      {
+        "tr": "ROBOT",
+        "label": "Robot",
+        "fr": "Robot"
+      },
+      {
+        "tr": "ÇEMBER",
+        "label": "Çember",
+        "fr": "Cerceau"
+      },
+      {
+        "tr": "SEKSEK",
+        "label": "Seksek",
+        "fr": "Marelle"
+      },
+      {
+        "tr": "SAKLAMBAÇ",
+        "label": "Saklambaç",
+        "fr": "Cache-cache"
+      },
+      {
+        "tr": "KÖREBE",
+        "label": "Körebe",
+        "fr": "Colin-maillard"
+      },
+      {
+        "tr": "MENDİL",
+        "label": "Mendil",
+        "fr": "Foulard"
+      },
+      {
+        "tr": "BEŞTAŞ",
+        "label": "Beştaş",
+        "fr": "Jeu des cinq pierres"
+      },
+      {
+        "tr": "EVCİLİK",
+        "label": "Evcilik",
+        "fr": "Jouer à la maison"
+      },
+      {
+        "tr": "SANDIK",
+        "label": "Sandık",
+        "fr": "Coffre"
+      },
+      {
+        "tr": "DÖNMEK",
+        "label": "Dönmek",
+        "fr": "Tourner"
+      },
+      {
+        "tr": "YAKALAMAK",
+        "label": "Yakalamak",
+        "fr": "Attraper"
+      },
+      {
+        "tr": "PAYLAŞMAK",
+        "label": "Paylaşmak",
+        "fr": "Partager"
+      }
+    ],
+    "directions": [
+      "right",
+      "down"
+    ]
+  },
+  "song": [
+    {
+      "title": "Nakarat",
+      "lines": [
+        {
+          "text": "At bana şu topu,",
+          "fr": "Lance-moi ce ballon !"
+        },
+        {
+          "text": "Tamamla yapbozu!",
+          "fr": "Termine le puzzle !"
+        },
+        {
+          "text": "Sür şu arabayı,",
+          "fr": "Conduis cette voiture !"
+        },
+        {
+          "text": "Uçur uçurtmayı!",
+          "fr": "Fais voler le cerf-volant !"
+        },
+        {
+          "text": "Konuştur kuklayı,",
+          "fr": "Fais parler la marionnette !"
+        },
+        {
+          "text": "Uyut hadi ayıyı!",
+          "fr": "Allez, endors l'ours !"
+        },
+        {
+          "text": "Oyna, oyna, benimle,",
+          "fr": "Joue, joue avec moi !"
+        },
+        {
+          "text": "Sen de katıl bizimle!",
+          "fr": "Viens jouer avec nous !"
+        }
+      ]
+    },
+    {
+      "title": "Kısım 1",
+      "lines": [
+        {
+          "text": "Çevir şu topacı,",
+          "fr": "Fais tourner cette toupie !"
+        },
+        {
+          "text": "Sür küçük treni!",
+          "fr": "Fais rouler le petit train !"
+        },
+        {
+          "text": "Diz renkli blokları,",
+          "fr": "Empile les blocs colorés !"
+        },
+        {
+          "text": "Çağır arkadaşları!",
+          "fr": "Appelle les amis !"
+        },
+        {
+          "text": "Yuvarla misketi,",
+          "fr": "Fais rouler la bille !"
+        },
+        {
+          "text": "Döndür şu çemberi!",
+          "fr": "Fais tourner ce cerceau !"
+        },
+        {
+          "text": "Salla şu bebeği,",
+          "fr": "Berce cette poupée !"
+        },
+        {
+          "text": "Çalıştır şu robotu!",
+          "fr": "Mets ce robot en marche !"
+        }
+      ]
+    },
+    {
+      "title": "Nakarat",
+      "lines": [
+        {
+          "text": "At bana şu topu,",
+          "fr": "Lance-moi ce ballon !"
+        },
+        {
+          "text": "Tamamla yapbozu!",
+          "fr": "Termine le puzzle !"
+        },
+        {
+          "text": "Sür şu arabayı,",
+          "fr": "Conduis cette voiture !"
+        },
+        {
+          "text": "Uçur uçurtmayı!",
+          "fr": "Fais voler le cerf-volant !"
+        },
+        {
+          "text": "Konuştur kuklayı,",
+          "fr": "Fais parler la marionnette !"
+        },
+        {
+          "text": "Uyut hadi ayıyı!",
+          "fr": "Allez, endors l'ours !"
+        },
+        {
+          "text": "Oyna, oyna, benimle,",
+          "fr": "Joue, joue avec moi !"
+        },
+        {
+          "text": "Sen de katıl bizimle!",
+          "fr": "Viens jouer avec nous !"
+        }
+      ]
+    },
+    {
+      "title": "Kısım 2",
+      "lines": [
+        {
+          "text": "Oyna haydi sekseği,",
+          "fr": "Allez, joue à la marelle !"
+        },
+        {
+          "text": "At kutuya şu taşı!",
+          "fr": "Lance ce caillou dans la case !"
+        },
+        {
+          "text": "Kaldır bir ayağını,",
+          "fr": "Lève un pied !"
+        },
+        {
+          "text": "Zıpla, geç öbür taşı!",
+          "fr": "Saute et dépasse l'autre caillou !"
+        },
+        {
+          "text": "Saklan, haydi saklan,",
+          "fr": "Cache-toi, allez, cache-toi !"
+        },
+        {
+          "text": "Çık ortaya, yakalan!",
+          "fr": "Sors de ta cachette, laisse-toi attraper !"
+        },
+        {
+          "text": "Oyna haydi körebe,",
+          "fr": "Allez, joue à colin-maillard !"
+        },
+        {
+          "text": "Yakala birini!",
+          "fr": "Attrape quelqu’un !"
+        }
+      ]
+    },
+    {
+      "title": "Nakarat",
+      "lines": [
+        {
+          "text": "At bana şu topu,",
+          "fr": "Lance-moi ce ballon !"
+        },
+        {
+          "text": "Tamamla yapbozu!",
+          "fr": "Termine le puzzle !"
+        },
+        {
+          "text": "Sür şu arabayı,",
+          "fr": "Conduis cette voiture !"
+        },
+        {
+          "text": "Uçur uçurtmayı!",
+          "fr": "Fais voler le cerf-volant !"
+        },
+        {
+          "text": "Konuştur kuklayı,",
+          "fr": "Fais parler la marionnette !"
+        },
+        {
+          "text": "Uyut hadi ayıyı!",
+          "fr": "Allez, endors l'ours !"
+        },
+        {
+          "text": "Oyna, oyna, benimle,",
+          "fr": "Joue, joue avec moi !"
+        },
+        {
+          "text": "Sen de katıl bizimle!",
+          "fr": "Viens jouer avec nous !"
+        }
+      ]
+    },
+    {
+      "title": "Kısım 3",
+      "lines": [
+        {
+          "text": "Kap ortadan mendili,",
+          "fr": "Attrape le foulard au milieu !"
+        },
+        {
+          "text": "Bul yeniden yerini!",
+          "fr": "Retrouve ta place !"
+        },
+        {
+          "text": "At havaya bir taşı,",
+          "fr": "Lance un caillou en l'air !"
+        },
+        {
+          "text": "Al yerden öbür taşı!",
+          "fr": "Ramasse l'autre caillou !"
+        },
+        {
+          "text": "Çevir uzun ipi,",
+          "fr": "Fais tourner la longue corde !"
+        },
+        {
+          "text": "Çağır şimdi bizi!",
+          "fr": "Appelle-nous maintenant !"
+        },
+        {
+          "text": "Atla, atla, ip atla,",
+          "fr": "Saute, saute à la corde !"
+        },
+        {
+          "text": "Hopla, zıpla, hopla, zıpla!",
+          "fr": "Saute, bondis, saute, bondis !"
+        }
+      ]
+    },
+    {
+      "title": "Nakarat",
+      "lines": [
+        {
+          "text": "At bana şu topu,",
+          "fr": "Lance-moi ce ballon !"
+        },
+        {
+          "text": "Tamamla yapbozu!",
+          "fr": "Termine le puzzle !"
+        },
+        {
+          "text": "Sür şu arabayı,",
+          "fr": "Conduis cette voiture !"
+        },
+        {
+          "text": "Uçur uçurtmayı!",
+          "fr": "Fais voler le cerf-volant !"
+        },
+        {
+          "text": "Konuştur kuklayı,",
+          "fr": "Fais parler la marionnette !"
+        },
+        {
+          "text": "Uyut hadi ayıyı!",
+          "fr": "Allez, endors l'ours !"
+        },
+        {
+          "text": "Oyna, oyna, benimle,",
+          "fr": "Joue, joue avec moi !"
+        },
+        {
+          "text": "Sen de katıl bizimle!",
+          "fr": "Viens jouer avec nous !"
+        }
+      ]
+    },
+    {
+      "title": "Kısım 4",
+      "lines": [
+        {
+          "text": "Aç bakalım kapıyı!",
+          "fr": "Allez, ouvre la porte !"
+        },
+        {
+          "text": "Buyur et misafiri!",
+          "fr": "Invite ton invité à entrer !"
+        },
+        {
+          "text": "Diz şu tabakları,",
+          "fr": "Dispose ces assiettes !"
+        },
+        {
+          "text": "Çağır arkadaşları!",
+          "fr": "Appelle les amis !"
+        },
+        {
+          "text": "Oyna kutu kutu pense,",
+          "fr": "Joue à « Kutu kutu pense » !"
+        },
+        {
+          "text": "Dön bizimle el ele!",
+          "fr": "Tourne avec nous, main dans la main !"
+        },
+        {
+          "text": "Ela, Mavi, Pofuduk,",
+          "fr": "Ela, Mavi, Pofuduk,"
+        },
+        {
+          "text": "Oynadık, mutlu olduk!",
+          "fr": "Nous avons joué, nous étions heureux !"
+        }
+      ]
+    }
+  ]
+}

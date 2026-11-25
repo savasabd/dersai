@@ -1,0 +1,292 @@
+{
+  "title": "Oyunlar ve Oyuncaklar",
+  "subtitle": "Oyun Sandığının Sırrı / Le secret du coffre à jouets",
+  "lesson_number": 6,
+  "checked_date": "2026-11-25",
+  "duration_minutes": 180,
+  "stage_minimum_sum": 170,
+  "sections": [
+    {
+      "id": "cerceve",
+      "title_tr": "Genel bilgiler",
+      "title_fr": "Présentation de la séquence",
+      "rows": [
+        {
+          "tr_title": "Hedef grup ve dil düzeyi",
+          "fr_title": "Public et niveau visé",
+          "tr": "EILE Türkçe; CE1–CM2 karma yaş ve dil düzeyi grupları. Başlangıçtan A1 yönünde ilerleme hedeflenir. Bu dizi tek başına bir CECRL düzeyini kazandırmaz veya belgelemez.",
+          "fr": "Turc en EILE, pour des groupes hétérogènes du CE1 au CM2. La séquence contribue à une progression du débutant vers A1 ; elle ne valide ni ne certifie à elle seule un niveau du CECRL."
+        },
+        {
+          "tr_title": "Süre ve düzen",
+          "fr_title": "Durée et organisation",
+          "tr": "180 dakikalık esnek dizi, haftalık 90 dakikalık düzende yaklaşık iki buluşmaya yayılır. Aşama süreleri tahminidir; alt sınırlar toplamı 170 dakikadır. Kalan süre kısa tekrar ve geçişlere ayrılabilir. Bütün üst sınırlar toplanmaz.",
+          "fr": "Séquence souple de 180 minutes, répartissable sur environ deux rencontres hebdomadaires de 90 minutes. Les minima représentent 170 minutes ; la marge peut servir aux rappels et transitions. Ne pas additionner tous les maxima."
+        },
+        {
+          "tr_title": "Ön bilgi ve ilk gözlem",
+          "fr_title": "Prérequis et observation initiale",
+          "tr": "Zorunlu oyuncak veya oyun sözcüğü ön bilgisi yoktur. Bu ne? sorusu, gösterme ve dinleme yönergeleri modelle desteklenir. Başlangıçta öğrencinin tanıdığı kartları, sözlü cevabını ve yazıya hazır oluşunu ayrı ayrı gözlemleyin.",
+          "fr": "Aucun lexique préalable des jeux ou jouets n’est exigé. Modéliser Bu ne? et les consignes de désignation et d’écoute. Repérer séparément cartes reconnues, réponses orales et disponibilité pour l’écrit."
+        },
+        {
+          "tr_title": "Kahramanlar ve kültürel içerik",
+          "fr_title": "Personnages et contenu culturel",
+          "tr": "Ela, Mavi, anlatıcı ve konuk oyuncak ayı Pofuduk. Geleneksel oyunlar hikâye ve görsellerle tanıtılır; sınıf uygulamaları sözcük, betimleme ve iletişim oyunlarıdır. Bütün geleneksel oyunların kurallarını öğretmek veya hepsini oynatmak hedef değildir.",
+          "fr": "Ela, Mavi, le narrateur et Pofuduk, l’ours en peluche invité. Les jeux traditionnels sont découverts dans le récit et les images ; les activités de classe sont des jeux de langage, de description et de communication, sans apprentissage exhaustif de leurs règles."
+        },
+        {
+          "tr_title": "Ders sonu iletişim görevi",
+          "fr_title": "Tâche finale de communication",
+          "tr": "Öğrenci kendi oyuncak çizimini iki kısa cümleyle tanıtır, bir hareketini söyler ve arkadaşını oyuna davet eder. Bir tercih sorusuna cevap verir. Örnek: Bu benim kuklam. El sallar. Benimle oynar mısın?",
+          "fr": "Présenter son jouet dessiné en deux phrases courtes, dire ce qu’il fait et inviter un camarade à jouer. Répondre à une question de préférence. Exemple : Bu benim kuklam. El sallar. Benimle oynar mısın?"
+        }
+      ]
+    },
+    {
+      "id": "kazanimlar",
+      "title_tr": "Kazanımlar ve dil içeriği",
+      "title_fr": "Objectifs d’apprentissage et contenus linguistiques",
+      "rows": [
+        {
+          "tr_title": "Dinleme",
+          "fr_title": "Comprendre l’oral",
+          "tr": "Yavaş ve açık söylenen tanıdık oyuncak adını uygun görselle eşleştirir; en az üç kısa eylem yönergesini göstererek veya hareketle karşılar. Hikâyede kimin ne yaptığını bir görselde işaretler.",
+          "fr": "Associer un jouet familier entendu distinctement à son image ; répondre par désignation ou geste à au moins trois consignes d’action courtes ; repérer dans une image qui fait quoi dans le récit."
+        },
+        {
+          "tr_title": "Sözlü anlatım",
+          "fr_title": "Parler en continu",
+          "tr": "Seçtiği oyuncağı adı ve yaptığı hareketle tanıtır: Bu bir topaç. Topaç döner. Son görevde model veya görsel desteğiyle iki anlaşılır kısa cümle kurar.",
+          "fr": "Présenter un jouet en le nommant et en indiquant une action : Bu bir topaç. Topaç döner. Produire deux énoncés courts et compréhensibles, avec modèle ou appui visuel selon les besoins."
+        },
+        {
+          "tr_title": "Sözlü etkileşim",
+          "fr_title": "Dialoguer",
+          "tr": "Bu ne? Ne yapar? Benimle oynar mısın? sorularından uygun olanı sorar; arkadaşının cevabını dinleyip ilgili cevap verir. Anlamadığında Bir daha söyler misin? ifadesini kullanabilir.",
+          "fr": "Poser une question adaptée parmi Bu ne?, Ne yapar? et Benimle oynar mısın? ; écouter et répondre de façon pertinente. Utiliser, avec modèle, Bir daha söyler misin? pour demander une répétition."
+        },
+        {
+          "tr_title": "Okuma",
+          "fr_title": "Lire",
+          "tr": "Yazıya hazır öğrenci, tanıdık oyuncak adlarını ve kısa eylem ifadelerini görsellerle eşleştirir. İleri seçenekte kısa rol metninde kendi repliğini bulur ve anlamına uygun okur.",
+          "fr": "Pour l’élève prêt à l’écrit, associer mots familiers de jouets et courtes expressions d’action aux images. En prolongement, retrouver et lire sa réplique dans un bref texte distribué par rôles."
+        },
+        {
+          "tr_title": "Yazma",
+          "fr_title": "Écrire",
+          "tr": "Sözcük bankasıyla çizimine iki kısa etiket veya bir tanıtım cümlesi yazar. Şarkı aşamasındaki eksik söz çalışmasında duyduğu hedef sözcüğü tamamlar; yazmaya hazır olmayan öğrenci kart seçer veya sözcüğü sözlü söyler.",
+          "fr": "Écrire deux étiquettes ou une phrase de présentation avec une banque de mots. Dans le travail lacunaire intégré à la chanson, compléter un mot entendu ; accepter désignation ou réponse orale pour l’élève non encore prêt à écrire."
+        },
+        {
+          "tr_title": "Dilsel aracılık",
+          "fr_title": "Médiation",
+          "tr": "Bir arkadaşının kısa tarifini ilgili kartla gösterir veya jestle açıklar. Gerektiğinde Fransızca desteğini Türkçe görevi anlamak için kullanır; ardından Türkçe örnek ifadeyi tekrar kurar.",
+          "fr": "Rendre compréhensible la description d’un camarade à l’aide d’une carte ou d’un geste. Utiliser si nécessaire un étayage en français pour comprendre la tâche, puis reformuler l’énoncé modèle en turc."
+        },
+        {
+          "tr_title": "Sözcük kapsamı ve öncelik",
+          "fr_title": "Étendue et priorisation du lexique",
+          "tr": "Hikâyede 15 oyuncak/malzeme ve 10 oyun yer alır. Önce sınıfın ihtiyacına göre 6–8 tanıdık ad seçilir: top, oyuncak ayı, araba, topaç, uçurtma, yapboz, kukla, robot. Tren, misket, bez bebek, bloklar, yo-yo, çember ve atlama ipi görsellerle genişletilir.",
+          "fr": "Le récit comporte quinze jouets ou accessoires et dix jeux. Commencer par six à huit noms adaptés au groupe : ballon, ours en peluche, voiture, toupie, cerf-volant, puzzle, marionnette, robot. Étendre ensuite le répertoire avec les autres cartes illustrées."
+        },
+        {
+          "tr_title": "Oyun adları",
+          "fr_title": "Noms des jeux",
+          "tr": "Seksek, saklambaç, körebe, mendil kapmaca, ip atlama, beştaş, yağ satarım bal satarım, istop, evcilik ve kutu kutu pense; öncelikle görsel tanıma ve basit anlatma. Bir oyunun farklı aile veya yörelerde farklı söylenebileceği kabul edilir.",
+          "fr": "Marelle, cache-cache, colin-maillard, jeu du foulard, saut à la corde, jeu des cinq pierres, Yağ satarım bal satarım, istop, jeu de la maison et Kutu kutu pense : repérage visuel et brève présentation. Accueillir les variantes familiales ou régionales."
+        },
+        {
+          "tr_title": "Dil yapıları",
+          "fr_title": "Structures langagières",
+          "tr": "Bu ne? Bu bir … . Ne yapar? Döner, uçar, zıplar. Topu at. Topacı çevir. En sevdiğim oyuncak … . … seviyorum. Benimle oynar mısın? Önce …, sonra … . Başlangıçta kalıpları modelle kullanın; ek çözümlemesini zorunlu tutmayın.",
+          "fr": "Questions d’identification et d’action, phrases descriptives, consignes, préférences et invitation à jouer. Introduire önce/sonra avec images. Au départ, employer les énoncés comme des blocs utiles, sans imposer l’analyse des suffixes."
+        },
+        {
+          "tr_title": "Telaffuz ve vurgu",
+          "fr_title": "Prononciation et prosodie",
+          "tr": "Oyuncak adlarını doğal vurguyla, son heceleri yutmadan söyleme; çember/ç, uçurtma/ç, robot/r ve Türkçe ı sesini anlaşılır kullanma. Şarkıdan sonra gerektiğinde sözcüğü konuşma sesiyle modelleyin; ezgiye katılmayı tek telaffuz kanıtı saymayın.",
+          "fr": "Prononcer les noms sans effacer les syllabes finales, travailler les consonnes et le ı turcs dans des mots utiles. Après la chanson, proposer si besoin un modèle parlé ; chanter en groupe ne suffit pas à établir une réussite individuelle."
+        }
+      ]
+    },
+    {
+      "id": "akis",
+      "title_tr": "Ders akışı",
+      "title_fr": "Déroulement",
+      "rows": [
+        {
+          "tr_title": "1. Hazırlık ve konuyu keşfet",
+          "fr_title": "1. Préparation et découverte",
+          "tr": "Tahmini 5–10 dakika. Oyuncak kartlarıyla Bu ne? sorusunu modelleyin. Bilinen sözcükleri gözlemleyin; her çocuktan bir gösterme veya adlandırma cevabı alın.",
+          "fr": "Durée estimée : 5–10 minutes. Présenter les cartes et modéliser Bu ne?. Repérer les mots connus ; recueillir au moins une désignation ou dénomination de chacun."
+        },
+        {
+          "tr_title": "2. Hikâyeyi izle, durdur ve konuş",
+          "fr_title": "2. Regarder, faire une pause et échanger",
+          "tr": "Tahmini 30–45 dakika. Onaylı hikâyeyi kısa parçalarla izleyin. Soru duraklarında kahramanı, oyuncağı ve eylemi gösterip söyletin. Geleneksel oyunları görsellerden tanıtın; A4 not formunda kısa iz bırakın.",
+          "fr": "Durée estimée : 30–45 minutes. Regarder le récit validé par extraits. Aux pauses, faire désigner puis nommer personnage, jouet et action. Découvrir les jeux traditionnels en images ; garder une trace brève sur la fiche A4."
+        },
+        {
+          "tr_title": "3. Eşleştir, boya ve anlat",
+          "fr_title": "3. Associer, colorier et décrire",
+          "tr": "Tahmini 20–25 dakika. Oyuncak, ad ve eylem kartlarını eşleştirin. Boyama formunda bir oyuncağı seçtirip Bu bir … / … yapar cümlelerini kurdurun. Renkler destekleyici tekrar olarak kalır.",
+          "fr": "Durée estimée : 20–25 minutes. Associer jouet, nom et action. Sur la fiche à colorier, choisir un jouet et produire Bu bir … / … yapar. Les couleurs servent de rappel, sans devenir l’objectif principal."
+        },
+        {
+          "tr_title": "4. Oyuncağımı tasarlıyorum",
+          "fr_title": "4. Je crée mon jouet",
+          "tr": "Tahmini 40–50 dakika. Kukla veya oyuncak tasarım formunda bir tasarım çizdirin; iki etiket ve kısa tanıtım hazırlatın. Dileyen öğrenci kâğıt kukla yapabilir. Her öğrenci tasarımını adı ve hareketiyle sunar.",
+          "fr": "Durée estimée : 40–50 minutes. Dessiner un jouet ou une marionnette sur la fiche, ajouter deux étiquettes et préparer une courte présentation. Une marionnette en papier est possible. Chacun présente son objet et une action."
+        },
+        {
+          "tr_title": "5. Şarkı ve katılım",
+          "fr_title": "5. Chanson et participation",
+          "tr": "Tahmini 10–15 dakika. Onaylı şarkı videosunda duyulan nesneyi gösterin ve eylemi jestle karşılayın. Aynı aşamadaki Eksik Sözleri Tamamla çalışmasını dinleme–yazma desteği olarak kısa bir tur uygulayın.",
+          "fr": "Durée estimée : 10–15 minutes. Dans la vidéo validée, montrer l’objet entendu et représenter l’action par un geste. Utiliser brièvement le texte à trous intégré à cette étape pour relier écoute et écrit."
+        },
+        {
+          "tr_title": "6. Hikâyede sözcük avı",
+          "fr_title": "6. Chercher les mots du récit",
+          "tr": "Tahmini 20–25 dakika. Kahraman, oyuncak, oyun ve eylem sözcüklerini bulmacada aratın. Bulunan sözcüğü yalnız işaretlemekle kalmayıp bir görsele bağlatın veya kısa cümlede kullandırın.",
+          "fr": "Durée estimée : 20–25 minutes. Chercher personnages, jouets, jeux et actions dans les mots mêlés. Après le repérage, relier le mot à une image ou l’employer dans un énoncé court."
+        },
+        {
+          "tr_title": "7. Anlat bakalım: hangi oyuncak?",
+          "fr_title": "7. Décris : de quel jouet s’agit-il ?",
+          "tr": "Tahmini 30–40 dakika. Bir öğrenci kartı adını söylemeden iki ipucuyla anlatır; arkadaşı soru sorup tahmin eder. Başlangıçta iki görsel seçenek verin; hazır öğrenciden hareket ve kullanım ipucu isteyin.",
+          "fr": "Durée estimée : 30–40 minutes. Un élève décrit une carte sans la nommer ; un pair pose une question puis propose une réponse. Offrir deux choix aux débutants ; demander action et usage aux élèves plus autonomes."
+        },
+        {
+          "tr_title": "8. Tercih, paylaşım ve çıkış bileti",
+          "fr_title": "8. Préférence, partage et billet de sortie",
+          "tr": "Tahmini 15–20 dakika. Öğrenci sevdiği oyuncak veya oyunu söyler, bir arkadaşını oyuna davet eder ve çıkış biletini tamamlar. Sonraki buluşma için kişisel bir dil hedefi belirleyin.",
+          "fr": "Durée estimée : 15–20 minutes. Exprimer une préférence de jeu ou de jouet, inviter un camarade à jouer et compléter le billet de sortie. Définir un prochain objectif langagier individuel."
+        }
+      ]
+    },
+    {
+      "id": "uyarlama",
+      "title_tr": "Düzeye ve ihtiyaca göre uyarlama",
+      "title_fr": "Différenciation pédagogique",
+      "rows": [
+        {
+          "tr_title": "Başlangıç düzeyi",
+          "fr_title": "Débutants",
+          "tr": "İki kart, jest, kısa tekrar ve Bu bir … gibi cümle başlangıcı sunun. İşaretleme → tek sözcük → kısa cümle sırası izlenebilir. İlk turda Fransızca görünsün; tanıma güçlendikçe ilgili alanı kapatın.",
+          "fr": "Proposer deux cartes, gestes, répétitions courtes et amorces. Passer progressivement de la désignation au mot puis à la phrase. Montrer d’abord le français si utile, puis retirer cet appui selon les acquis."
+        },
+        {
+          "tr_title": "Okuma ve yazma desteği",
+          "fr_title": "Étayer la lecture et l’écriture",
+          "tr": "Güçlü sözlü Türkçeyi bağımsız okuryazarlıkla eş tutmayın. Büyük kart, sözcük bankası, eşli okuma, kopyalama ve çizim–etiket seçeneği sunun. Öğrenci sözlü cevapla da dil görevine katılabilir.",
+          "fr": "Ne pas assimiler aisance orale en turc et autonomie à l’écrit. Prévoir grandes cartes, banque de mots, lecture à deux, copie et dessin légendé. Permettre une participation orale à la tâche."
+        },
+        {
+          "tr_title": "Türkçesi güçlü öğrenciler",
+          "fr_title": "Approfondissement",
+          "tr": "İleri alternatiflerden ek oyuncaklar, karşılaştırma, gerekçeli tercih ve rol okuması seçin. Ela, Mavi, anlatıcı ve Pofuduk rollerini koruyun. Neden? Nasıl? Önce ne oldu? gibi sorularla açıklamayı genişletin.",
+          "fr": "Choisir des prolongements : lexique complémentaire, comparaison, préférence justifiée et lecture par rôles avec Ela, Mavi, le narrateur et Pofuduk. Enrichir les réponses par Pourquoi ?, Comment ? et l’ordre des événements."
+        },
+        {
+          "tr_title": "Katılım ve erişim",
+          "fr_title": "Participation et accessibilité",
+          "tr": "Büyük görseller, altyazı, kısa ses tekrarları ve esnek cevap biçimleri kullanın. Gerçek oyuncağı olan veya belirli bir oyunu evde bilen çocukları avantajlı saymayın; hayalî seçim ve ortak kartlar herkes için yeterlidir.",
+          "fr": "Utiliser images agrandies, sous-titres, brefs réécouts et modalités de réponse variées. Ne pas avantager la possession de jouets ou la connaissance familiale d’un jeu ; cartes communes et choix imaginaires suffisent."
+        },
+        {
+          "tr_title": "Alternatifleri seçme",
+          "fr_title": "Choisir les prolongements",
+          "tr": "İleri Seviye Alternatifleri ve Alternatif Grup Etkinlikleri ayrı seçeneklerdir. Her ana aşamaya zorla eklenmez ve hepsi 180 dakikaya ek süre olarak toplanmaz. Grubun dil ihtiyacına göre bir seçenek ana görevin yerini alabilir.",
+          "fr": "Les alternatives avancées et collectives sont des choix distincts. Ne pas les imposer à chaque étape ni additionner toutes leurs durées à la séquence. Une activité peut remplacer une tâche selon les besoins langagiers."
+        }
+      ]
+    },
+    {
+      "id": "degerlendirme",
+      "title_tr": "Değerlendirme",
+      "title_fr": "Évaluation",
+      "rows": [
+        {
+          "tr_title": "Ön ve süreç değerlendirmesi",
+          "fr_title": "Évaluation diagnostique et formative",
+          "tr": "Kart gösterme, hikâye sorusu ve eşli tarif sırasında kısa bireysel örnekler kaydedin. Tarih, kullanılan ifade ve destek düzeyi not edilir. Toplu şarkı söylemek veya bulmacayı hızlı bitirmek tek başına dil başarısı sayılmaz.",
+          "fr": "Recueillir des exemples individuels pendant désignation, questions du récit et descriptions à deux. Noter date, énoncé et aide reçue. Chant collectif ou rapidité dans les mots mêlés ne constituent pas, seuls, des preuves langagières."
+        },
+        {
+          "tr_title": "Yerel başarı ölçütleri",
+          "fr_title": "Critères de réussite proposés",
+          "tr": "Öneri: seçilen altı tanıdık görselden en az dördünü gösterme/adlandırma; üç basit yönergeye uygun cevap; oyuncağı iki kısa cümleyle tanıtma; bir soru veya davet ve ilgili cevap. Sayılar gruba göre uyarlanır; resmî eşik değildir.",
+          "fr": "À adapter : reconnaître ou nommer au moins quatre images parmi six étudiées ; répondre à trois consignes ; présenter un jouet en deux phrases ; produire une question ou invitation et une réponse pertinente. Ces seuils locaux ne sont pas officiels."
+        },
+        {
+          "tr_title": "Öğrenme kanıtları",
+          "fr_title": "Traces d’apprentissage",
+          "tr": "A4 öğrenci notu, eşleştirme/boyama, tasarım ve çıkış bileti arasından örnekler saklayın. Her çocuk için bir gerçek sözlü ifade ve bir sonraki hedef kaydedin. Gözlem formunda yardımla/bağımsız ayrımını belirtin.",
+          "fr": "Conserver quelques traces : fiche A4, association/coloriage, création et billet de sortie. Noter pour chacun un énoncé réellement produit et un prochain objectif. Distinguer réussite aidée et autonome dans la grille d’observation."
+        },
+        {
+          "tr_title": "Öz değerlendirme ve izleme",
+          "fr_title": "Auto-évaluation et suivi",
+          "tr": "Öğrenci Gösteriyorum / Söylüyorum / Soruyorum seçeneklerini yardımla veya tek başıma biçiminde işaretler. Sonraki buluşmada iki kart ve bir yeni ipucuyla kalıcılığı kontrol edin; okulun izleme düzeninde kullanılabilecek somut gözlemler tutun.",
+          "fr": "L’élève se situe : Je montre / Je dis / Je demande, avec aide ou seul. À la rencontre suivante, vérifier la consolidation avec deux cartes et un nouvel indice ; conserver des observations concrètes utiles au suivi de l’école."
+        }
+      ]
+    },
+    {
+      "id": "kaynaklar",
+      "title_tr": "Program dayanakları ve materyaller",
+      "title_fr": "Références institutionnelles et supports",
+      "rows": [
+        {
+          "tr_title": "EILE çerçevesi",
+          "fr_title": "Cadre EILE",
+          "tr": "1 Eylül 2025 EILE genelgesi, CE1–CM2 kapsamı ve haftalık bir buçuk saatlik düzen için dayanak alınmıştır. Buradaki aşama, etkinlik ve ölçütler bu ders için hazırlanmış pedagojik seçimlerdir.",
+          "fr": "La circulaire EILE du 1er septembre 2025 situe le public CE1–CM2 et l’organisation hebdomadaire. Les étapes, tâches et critères présentés ici relèvent de choix pédagogiques propres à cette séquence."
+        },
+        {
+          "tr_title": "Türkçe programıyla ilişki",
+          "fr_title": "Articulation avec le programme de turc",
+          "tr": "Académie Orléans-Tours tarafından yayımlanan EILE Türkçe program çerçevesinde kısa yönergeler, eylem fiilleri, oyunlar, geleneksel oyuncaklar, hikâye ve betimleme yer alır. Ders bunları görsel tanıma ve kısa Türkçe iletişim görevleriyle işler.",
+          "fr": "La trame de programme de turc diffusée par l’académie d’Orléans-Tours comprend consignes, verbes d’action, jeux, jouets traditionnels, récit et description. La séquence les mobilise dans des tâches visuelles et de communication brèves."
+        },
+        {
+          "tr_title": "Temel becerilerle ilişki",
+          "fr_title": "Liens avec le socle commun",
+          "tr": "Önerilen bağlar: Alan 1, Türkçe anlama ve iletişim; Alan 2, kart/not kullanma ve birlikte öğrenme; Alan 3, sıra alma ve başkasının seçimine saygı; Alan 5, çocuk oyunlarıyla kültürel karşılaşma. Bunlar ders etkinlikleriyle kurulan bağlantılardır.",
+          "fr": "Liens proposés : domaine 1, compréhension et communication en turc ; domaine 2, outils et coopération ; domaine 3, prise de tour et respect des choix ; domaine 5, découverte culturelle des jeux d’enfants."
+        },
+        {
+          "tr_title": "Kullanılan materyaller",
+          "fr_title": "Supports mobilisés",
+          "tr": "Onaylı hikâye ve son şarkı videosu; Türkçe–Fransızca oyuncak/oyun kartları; A4 görsel-not, eşleştirme, boyama, tasarım, sözcük avı ve çıkış bileti; şarkı içinde iki sütunlu eksik söz formu; seçmeli rol okuma, ileri ve grup formları.",
+          "fr": "Vidéos validées du récit et de la chanson ; cartes turc–français ; fiches A4 de trace, association, coloriage, création, mots mêlés et sortie ; texte lacunaire de chanson en deux colonnes ; lecture par rôles et fiches optionnelles avancées ou collectives."
+        },
+        {
+          "tr_title": "Kaynakların kontrolü",
+          "fr_title": "Vérification des références",
+          "tr": "Birincil kaynaklar 25 Kasım 2026 tarihinde çevrimiçi kontrol edildi. A1, EILE öğrenme yolunun ilkokul sonu hedefi olarak ele alınır; bu tek dersi tamamlamak A1 düzeyi kazanıldığı anlamına gelmez.",
+          "fr": "Sources institutionnelles consultées en ligne le 25 novembre 2026. A1 est envisagé comme un objectif de parcours EILE en fin d’école élémentaire ; terminer cette seule séquence n’établit pas l’acquisition du niveau A1."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "EILE : mise en œuvre, suivi et évaluation — circulaire du 1 septembre 2025",
+      "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2517055C"
+    },
+    {
+      "title": "EILE turc — trame de programme de langue vivante étrangère pour l’école élémentaire, Académie Orléans-Tours",
+      "url": "https://pedagogie.ac-orleans-tours.fr/documents/pdf/lve-contenus-eile-turc-programme.pdf"
+    },
+    {
+      "title": "Éduscol — L’école élémentaire, rubrique EILE",
+      "url": "https://eduscol.education.gouv.fr/5229/l-ecole-elementaire"
+    },
+    {
+      "title": "Le socle commun de connaissances, de compétences et de culture",
+      "url": "https://www.education.gouv.fr/le-socle-commun-de-connaissances-de-competences-et-de-culture-12512"
+    }
+  ]
+}
