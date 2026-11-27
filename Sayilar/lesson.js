@@ -1,84 +1,84 @@
-'use strict';
-
-const D=window.LESSON, $=s=>document.querySelector(s), key='dersai-sayilar-'+D.mode+'-v1';
-
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-
-let state={stage:0,notes:{},done:[],elapsed:{},visibility:{},seen:[]};try{state={...state,...JSON.parse(localStorage.getItem(key)||'{}')}}catch(e){}
-
-function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
-
-let running=false,started=0,selectedCell=null,found=new Set(),question=0;
-
-function elapsed(){return (state.elapsed[state.stage]||0)+(running?(Date.now()-started)/1000:0)}
-
-function commit(){if(running){state.elapsed[state.stage]=elapsed();started=Date.now();save()}}
-
-function tick(){const total=$('#totalTime');if(total){const t=Math.floor(Object.values(state.elapsed).reduce((a,b)=>a+b,0)+(running?(Date.now()-started)/1000:0));total.textContent=String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}const timer=$('#timer');if(timer)timer.textContent=running?'Süreyi durdur':'Süreyi başlat';const t=Math.floor(elapsed()),e=$('#clock');if(e)e.textContent=Math.floor(t/60)+':'+String(t%60).padStart(2,'0')}
-
-function download(name,obj){const u=URL.createObjectURL(new Blob([JSON.stringify(obj,null,2)],{type:'application/json;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
-
-function visibility(n){return state.visibility[n]||(state.visibility[n]={number:true,tr:false,fr:false,qty:true})}
-
-function qty(n){if(n>=200)return '<div class="qtyrow hundreds">'+Array.from({length:n/100},()=>'<span class="hundred"><span class="hundred-grid">'+Array.from({length:10},()=>'<img src="bundle.png" alt="">').join('')+'</span><b>100</b></span>').join('')+'</div>';if(n===0)return '<span class="muted">Hiç nesne yok.</span>';let html='<div class="qtyrow">';let tens=n>10?Math.floor(n/10):0,ones=n>10?n%10:n;for(let i=0;i<tens;i++)html+='<span class="bundle"><img src="bundle.png" alt="">10</span>';html+='</div><div class="qtyrow">';for(let i=0;i<ones;i++)html+='<img src="ticket.png" alt="">';return html+'</div>'}
-
-function cards(items){const fields=[['number','Sayı'],['tr','TR'],['fr','FR'],['qty','Nesne']];return '<p class="muted">Koyu düğme: alan görünür. Soluk düğme: alan kapalı. Her kart bağımsızdır.</p><div class="tools">'+fields.map(([k,label])=>'<button class="visibility" data-all="'+k+'" aria-pressed="'+items.every(c=>visibility(c.n)[k])+'">'+label+'</button>').join('')+'</div><div class="grid">'+items.map(c=>{const v=visibility(c.n);return '<article class="number-card"><span class="numeral">'+(v.number?c.n:'?')+'</span><span class="word">'+(v.tr?esc(c.tr):'&nbsp;')+'</span><span class="french">'+(v.fr?esc(c.fr):'&nbsp;')+'</span><div class="quantity">'+(v.qty?qty(c.n):'<span class="muted">—</span>')+'</div><div class="card-controls">'+fields.map(([k,label])=>'<button class="visibility" data-number="'+c.n+'" data-field="'+k+'" aria-pressed="'+v[k]+'" aria-label="'+label+' alanı">'+label+'</button>').join('')+'</div></article>'}).join('')+'</div>'}
-
-let cardItems=[];
-
-function bindCards(items){cardItems=items;let host=$('#cardHost');if(!host){host=document.createElement('div');host.id='cardHost';$('#activity').append(host)}host.innerHTML=cards(items)}
-
-document.addEventListener('click',e=>{const b=e.target.closest('[data-field],[data-all]');if(!b)return;if(b.dataset.all){const k=b.dataset.all,show=!cardItems.every(c=>visibility(c.n)[k]);cardItems.forEach(c=>visibility(c.n)[k]=show)}else{const v=visibility(b.dataset.number);v[b.dataset.field]=!v[b.dataset.field]}save();bindCards(cardItems)});
-
-function go(i){commit();running=false;document.querySelectorAll('video').forEach(v=>v.pause());state.stage=i;save();render()}
-
-function materialLinks(keys){return keys.map(k=>'<a class="button secondary" href="'+D.materials[k][1]+'" target="_blank" rel="noopener">'+esc(D.materials[k][0])+'</a>').join('')}
-
-function media(type){return '<video id="media" controls playsinline preload="metadata" poster="'+(type==='song'?'song_poster.png':'story_poster.png')+'" src="'+(type==='song'?'sarki_aac.mp4':'hikaye.mp4')+'"></video>'}
-
-function setupStory(){let v=$('#media');$('#practice').onclick=()=>{v.currentTime=D.practiceStart;v.play().catch(()=>{})};$('#storyStart').onclick=()=>{v.currentTime=0;v.play().catch(()=>{})};$('#resume').onclick=()=>{$('#prompt').hidden=true;v.play().catch(()=>{})};$('#answer').onclick=()=>{$('#expected').hidden=!$('#expected').hidden};$('#resetStops').onclick=()=>{state.seen=[];save();$('#prompt').hidden=true};v.addEventListener('timeupdate',()=>{if(v.paused||v.seeking||!$('#autoStops').checked)return;const stop=D.stops.find(s=>!state.seen.includes(s.id)&&v.currentTime>=s.time&&v.currentTime<s.time+1);if(stop){state.seen.push(stop.id);save();v.pause();v.currentTime=stop.time;$('#questionText').textContent=stop.prompt;$('#followup').textContent=stop.followup;$('#expected').textContent=stop.expected;$('#expected').hidden=true;$('#prompt').hidden=false}})}
-
-function matching(){const g=D.groups[[6,1,8,3,5,0,9,4,2,7][question%10]];$('#activity').innerHTML='<h3>Kaç '+esc(g[1])+' var?</h3><div class="question-objects">'+Array.from({length:g[2]},()=>'<img src="'+g[0]+'.png" alt="">').join('')+'</div><div class="answers">'+Array.from({length:10},(_,i)=>'<button data-choice="'+(i+1)+'">'+(i+1)+'</button>').join('')+'</div><p id="feedback" class="feedback" role="status"></p><button id="nextQuestion" class="secondary">Başka grup</button>';document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const correct=Number(b.dataset.choice)===g[2];$('#feedback').textContent=correct?'Evet! '+D.cards.find(c=>c.n===g[2]).tr.replace(/^./,c=>c.toLocaleUpperCase('tr'))+' '+g[1]+' var. Şimdi cümleyi sen söyle.':'Bir daha deneyelim. Her nesneyi bir kez işaretle.';$('#feedback').style.color=correct?'#316341':'#975729'});$('#nextQuestion').onclick=()=>{question++;matching()};$('#activity').insertAdjacentHTML('beforeend',"<section class=\"coloring-activity\" style=\"margin-top:24px\"><h3>Say, boya ve anlat</h3><p>Ela, Mavi ve Bay Numara ile sayı vagonlarını boya. Daireleri say; seçtiğin sayıyı ve rengi tam cümleyle söyle.</p><p><a class=\"button\" href=\"say_ve_boya_A4.pdf\" target=\"_blank\" rel=\"noopener\">Boyama sayfasını yazdır · A4 PDF ↗</a></p><a href=\"say_ve_boya_A4.pdf\" target=\"_blank\" rel=\"noopener\"><img src=\"boyama_onizleme.png\" alt=\"Ela, Mavi, Bay Numara ve birden ona kadar sayı vagonları bulunan boyama sayfası\" style=\"display:block;max-width:100%;width:440px;height:auto;margin:16px auto;border:1px solid #bbb;background:white\"></a></section>")}
-
-function wordsearch(){const host=$('#activity');host.innerHTML='<p><a class="button secondary" href="kelime_bulmaca.html" target="_blank" rel="noopener">Bulmacayı ayrı ekranda aç ↗</a></p><iframe id="numberPuzzle" title="Şenlikte sözcük avı" src="kelime_bulmaca.html" style="width:100%;height:1450px;border:0;display:block"></iframe>';const frame=$('#numberPuzzle');frame.onload=()=>{const main=frame.contentDocument.querySelector('main');const fit=()=>frame.style.height=Math.ceil(main.getBoundingClientRect().height+35)+'px';fit();const observer=new ResizeObserver(fit);observer.observe(main)}}
-
-function writing(){return '<img class="scene" src="senlik_resmi.png" alt="Şenlik treninin yanında Ela, Mavi ve Bay Numara; sayılacak on nesne grubu"><div class="writing-grid">'+['Bizim vagonumuzda…','Toplam biletimiz…','Kontrol etmek için…'].map((s,i)=>'<label>'+s+'<textarea data-draft="'+i+'">'+esc(state.notes['draft'+i]||'')+'</textarea></label>').join('')+'</div><p>Grup çizimleri ve onluk deste alanları için yukarıdaki A4 atölye formunu kullanın.</p>'}
-
-function render(){const advanced=D.mode==='advanced';const all=advanced?D.advanced:D.stages;state.stage=Math.max(0,Math.min(all.length-1,state.stage));const s=all[state.stage];$('#steps').innerHTML=all.map((a,i)=>'<button data-stage="'+i+'" aria-current="'+(i===state.stage?'step':'false')+'">'+(state.done.includes((advanced?'adv-':'')+a.id)?'✓ ':'')+(i+1)+'. '+esc(a.title)+'<small>Tahmini '+(advanced?a.time:a.time.join('–'))+' dakika</small></button>').join('');document.querySelectorAll('[data-stage]').forEach(b=>b.onclick=()=>go(Number(b.dataset.stage)));
-
- if($('#stageCount'))$('#stageCount').textContent=(state.stage+1)+'. AŞAMA / '+all.length;$('#title').textContent=s.title;$('#estimate').textContent='Tahmini '+(advanced?s.time:s.time.join('–'))+' dakika';$('#goal').textContent=s.goal;$('#instructions').innerHTML=s.steps.map(x=>'<li>'+esc(x)+'</li>').join('');$('#resources').innerHTML=advanced?'<a class="button" href="'+s.form+'" target="_blank" rel="noopener">Öğrenci formunu yazdır · A4 PDF ↗</a>':materialLinks([...new Set([...s.materials,'notlar'])]);$('#note').value=state.notes[(advanced?'adv-':'')+s.id]||'';$('#evidence').textContent=advanced?'Öğrencinin sorusu, gerekçesi ve tam cümle kullanımı üzerinden kısa not alın.':s.evidence;$('#complete').textContent=state.done.includes((advanced?'adv-':'')+s.id)?'✓ Aşama tamamlandı':'Aşamayı tamamla';$('#previous').disabled=state.stage===0;$('#next').disabled=state.stage===all.length-1;$('#activity').replaceChildren();
-
- if(advanced){$('#task').hidden=false;$('#task').textContent=s.task;$('#support').hidden=false;$('#supportText').textContent=s.support;$('#sampleText').textContent=s.sample;
-
-  if(s.id==='extra')bindCards(D.extra);else if(s.id==='order')$('#activity').innerHTML='<h3>Birer mi, onar mı?</h3>'+['Birer say: 4, …, 6','Birer say: …, 8, …','Onar say: 20, …, 40','Onar say: …, 70, …','5 ile 7 arasında hangi sayı var?'].map(q=>'<div class="exercise-card">'+esc(q)+'</div>').join('')+'<p>Cevabını söyle; ardından A4 formunda kendi ipucunu yaz.</p>';else if(s.id==='reading')$('#activity').innerHTML='<table><thead><tr><th>Rol</th><th>Replik</th></tr></thead><tbody>'+D.reading.map(l=>'<tr><th>'+esc(D.roles[l.speaker])+'</th><td>'+esc(l.text)+'</td></tr>').join('')+'</tbody></table>';else $('#activity').innerHTML='<div class="exercise-card"><h3>Öğrenci görevi</h3><p>'+esc(s.task)+'</p><p>Yukarıdaki A4 bağlantısı etkinliğe özel çalışma formunu açar.</p></div>';
-
- }else{
-
- $('#task').hidden=true;$('#support').hidden=true;
-
- if(s.activity==='cards'||s.activity==='share')bindCards(D.cards);
-
- if(s.activity==='share')$('#activity').insertAdjacentHTML('afterbegin','<img class="scene" src="senlik_resmi.png" alt="Sayılabilir nesne grupları olan şenlik resmi"><h3>Bizim vagonumuzda kaç tane var?</h3><p>Nasıl saydınız? Hata olsaydı nasıl kontrol ederdiniz?</p>');
-
- if(s.activity==='story'){$('#activity').innerHTML=media('story')+'<div class="tools"><button id="storyStart">Hikâyeyi başlat</button><button id="practice">Hikâye sonrası sayı oyunları</button><button class="secondary" id="resetStops">Soru duraklarını sıfırla</button></div><label class="check"><input type="checkbox" id="autoStops" checked>Soru duraklarında otomatik dur</label><div id="prompt" class="prompt" hidden><h3 id="questionText"></h3><p id="followup"></p><button id="answer">Örnek cevap</button><p id="expected" hidden></p><button id="resume">Videoya devam</button></div>';setupStory()}
-
- if(s.activity==='song'){$('#activity').innerHTML='<p>Şarkı aşağıda hazır. Oynat düğmesine basın; sayı söylenince çocuklar kartı göstersin ve ritme katılsın.</p><iframe id="numberSongFrame" title="Şarkı ve hareket · Ela, Mavi ve Bay Numara" src="sarki_izle.html" style="width:100%;height:650px;border:0;display:block"></iframe>';const frame=$('#numberSongFrame');frame.onload=()=>{const body=frame.contentDocument.body;const fit=()=>frame.style.height=Math.ceil(body.getBoundingClientRect().height+20)+'px';fit();const observer=new ResizeObserver(fit);observer.observe(body)}}
-
- if(s.activity==='guess')window.startNumberGuess($('#activity'));if(s.activity==='matching')matching();if(s.activity==='wordsearch')wordsearch();if(s.activity==='workshop')$('#activity').innerHTML=writing();if(s.activity==='exit')$('#activity').innerHTML='<h3>En sevdiğin sayı hangisi? Neden?</h3><p>Seçtiğin miktarı çiz; sonra “Burada … tane … var.” cümlesini kur.</p><div class="hero-strip">'+['ela','mavi','bay_numara'].map(r=>'<figure><img src="'+r+'.png" alt="'+D.roles[r]+'"><figcaption>'+D.roles[r]+'</figcaption></figure>').join('')+'</div><p>A4 çıkış bileti her sayfada iki öğrenci için hazırlanmıştır.</p>';
-
- }
-
- document.querySelectorAll('[data-draft]').forEach(t=>t.oninput=()=>{state.notes['draft'+t.dataset.draft]=t.value;save()});tick();save()}
-
-$('#note').oninput=()=>{const a=D.mode==='advanced'?D.advanced:D.stages;state.notes[(D.mode==='advanced'?'adv-':'')+a[state.stage].id]=$('#note').value;save()};$('#complete').onclick=()=>{const a=D.mode==='advanced'?D.advanced:D.stages,k=(D.mode==='advanced'?'adv-':'')+a[state.stage].id;state.done=state.done.includes(k)?state.done.filter(x=>x!==k):[...state.done,k];save();render()};$('#previous').onclick=()=>go(state.stage-1);$('#next').onclick=()=>go(state.stage+1);$('#timer').onclick=()=>{if(running){commit();running=false}else{started=Date.now();running=true}$('#timer').textContent=running?'Süreyi durdur':'Süreyi başlat';tick()};$('#export').onclick=()=>{commit();download('sayilar-ogretmen-notlari.json',{lesson:'Sayılar',date:new Date().toISOString(),...state})};$('#fullscreen').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen?.();else document.documentElement.requestFullscreen?.().catch(()=>{})};$('#projection').onclick=()=>{document.body.classList.toggle('projection');$('#projection').textContent=document.body.classList.contains('projection')?'Öğretmen görünümü':'Sunum görünümü'};$('#reset').onclick=()=>{if(!confirm('Bu dersteki notlar ve aşama ilerlemesi sıfırlansın mı?'))return;running=false;state={stage:0,notes:{},done:[],elapsed:{},visibility:{},seen:[]};save();render()};
-
-
-
-if(D.mode==='core'&&location.hash==='#bulmaca')state.stage=D.stages.findIndex(x=>x.id==='wordsearch');
-
-if(D.mode==='core'&&location.hash==='#tahmin')state.stage=D.stages.findIndex(x=>x.id==='guess');
-
-setInterval(tick,1000);window.addEventListener('beforeunload',commit);render();
-
-
-
+'use strict';
+
+const D=window.LESSON, $=s=>document.querySelector(s), key='dersai-sayilar-'+D.mode+'-v1';
+
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+let state={stage:0,notes:{},done:[],elapsed:{},visibility:{},seen:[]};try{state={...state,...JSON.parse(localStorage.getItem(key)||'{}')}}catch(e){}
+
+function save(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){}}
+
+let running=false,started=0,selectedCell=null,found=new Set(),question=0;
+
+function elapsed(){return (state.elapsed[state.stage]||0)+(running?(Date.now()-started)/1000:0)}
+
+function commit(){if(running){state.elapsed[state.stage]=elapsed();started=Date.now();save()}}
+
+function tick(){const total=$('#totalTime');if(total){const t=Math.floor(Object.values(state.elapsed).reduce((a,b)=>a+b,0)+(running?(Date.now()-started)/1000:0));total.textContent=String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}const timer=$('#timer');if(timer)timer.textContent=running?'Süreyi durdur':'Süreyi başlat';const t=Math.floor(elapsed()),e=$('#clock');if(e)e.textContent=Math.floor(t/60)+':'+String(t%60).padStart(2,'0')}
+
+function download(name,obj){const u=URL.createObjectURL(new Blob([JSON.stringify(obj,null,2)],{type:'application/json;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
+
+function visibility(n){return state.visibility[n]||(state.visibility[n]={number:true,tr:false,fr:false,qty:true})}
+
+function qty(n){if(n>=200)return '<div class="qtyrow hundreds">'+Array.from({length:n/100},()=>'<span class="hundred"><span class="hundred-grid">'+Array.from({length:10},()=>'<img src="bundle.png" alt="">').join('')+'</span><b>100</b></span>').join('')+'</div>';if(n===0)return '<span class="muted">Hiç nesne yok.</span>';let html='<div class="qtyrow">';let tens=n>10?Math.floor(n/10):0,ones=n>10?n%10:n;for(let i=0;i<tens;i++)html+='<span class="bundle"><img src="bundle.png" alt="">10</span>';html+='</div><div class="qtyrow">';for(let i=0;i<ones;i++)html+='<img src="ticket.png" alt="">';return html+'</div>'}
+
+function cards(items){const fields=[['number','Sayı'],['tr','TR'],['fr','FR'],['qty','Nesne']];return '<p class="muted">Koyu düğme: alan görünür. Soluk düğme: alan kapalı. Her kart bağımsızdır.</p><div class="tools">'+fields.map(([k,label])=>'<button class="visibility" data-all="'+k+'" aria-pressed="'+items.every(c=>visibility(c.n)[k])+'">'+label+'</button>').join('')+'</div><div class="grid">'+items.map(c=>{const v=visibility(c.n);return '<article class="number-card"><span class="numeral">'+(v.number?c.n:'?')+'</span><span class="word">'+(v.tr?esc(c.tr):'&nbsp;')+'</span><span class="french">'+(v.fr?esc(c.fr):'&nbsp;')+'</span><div class="quantity">'+(v.qty?qty(c.n):'<span class="muted">—</span>')+'</div><div class="card-controls">'+fields.map(([k,label])=>'<button class="visibility" data-number="'+c.n+'" data-field="'+k+'" aria-pressed="'+v[k]+'" aria-label="'+label+' alanı">'+label+'</button>').join('')+'</div></article>'}).join('')+'</div>'}
+
+let cardItems=[];
+
+function bindCards(items){cardItems=items;let host=$('#cardHost');if(!host){host=document.createElement('div');host.id='cardHost';$('#activity').append(host)}host.innerHTML=cards(items)}
+
+document.addEventListener('click',e=>{const b=e.target.closest('[data-field],[data-all]');if(!b)return;if(b.dataset.all){const k=b.dataset.all,show=!cardItems.every(c=>visibility(c.n)[k]);cardItems.forEach(c=>visibility(c.n)[k]=show)}else{const v=visibility(b.dataset.number);v[b.dataset.field]=!v[b.dataset.field]}save();bindCards(cardItems)});
+
+function go(i){commit();running=false;document.querySelectorAll('video').forEach(v=>v.pause());state.stage=i;save();render()}
+
+function materialLinks(keys){return keys.map(k=>'<a class="button secondary" href="'+D.materials[k][1]+'" target="_blank" rel="noopener">'+esc(D.materials[k][0])+'</a>').join('')}
+
+function media(type){return '<video id="media" controls playsinline preload="metadata" poster="'+(type==='song'?'song_poster.png':'story_poster.png')+'" src="'+(type==='song'?'sarki_aac.mp4':'hikaye.mp4')+'"></video>'}
+
+function setupStory(){let v=$('#media');$('#practice').onclick=()=>{v.currentTime=D.practiceStart;v.play().catch(()=>{})};$('#storyStart').onclick=()=>{v.currentTime=0;v.play().catch(()=>{})};$('#resume').onclick=()=>{$('#prompt').hidden=true;v.play().catch(()=>{})};$('#answer').onclick=()=>{$('#expected').hidden=!$('#expected').hidden};$('#resetStops').onclick=()=>{state.seen=[];save();$('#prompt').hidden=true};v.addEventListener('timeupdate',()=>{if(v.paused||v.seeking||!$('#autoStops').checked)return;const stop=D.stops.find(s=>!state.seen.includes(s.id)&&v.currentTime>=s.time&&v.currentTime<s.time+1);if(stop){state.seen.push(stop.id);save();v.pause();v.currentTime=stop.time;$('#questionText').textContent=stop.prompt;$('#followup').textContent=stop.followup;$('#expected').textContent=stop.expected;$('#expected').hidden=true;$('#prompt').hidden=false}})}
+
+function matching(){const g=D.groups[[6,1,8,3,5,0,9,4,2,7][question%10]];$('#activity').innerHTML='<h3>Kaç '+esc(g[1])+' var?</h3><div class="question-objects">'+Array.from({length:g[2]},()=>'<img src="'+g[0]+'.png" alt="">').join('')+'</div><div class="answers">'+Array.from({length:10},(_,i)=>'<button data-choice="'+(i+1)+'">'+(i+1)+'</button>').join('')+'</div><p id="feedback" class="feedback" role="status"></p><button id="nextQuestion" class="secondary">Başka grup</button>';document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const correct=Number(b.dataset.choice)===g[2];$('#feedback').textContent=correct?'Evet! '+D.cards.find(c=>c.n===g[2]).tr.replace(/^./,c=>c.toLocaleUpperCase('tr'))+' '+g[1]+' var. Şimdi cümleyi sen söyle.':'Bir daha deneyelim. Her nesneyi bir kez işaretle.';$('#feedback').style.color=correct?'#316341':'#975729'});$('#nextQuestion').onclick=()=>{question++;matching()};$('#activity').insertAdjacentHTML('beforeend',"<section class=\"coloring-activity\" style=\"margin-top:24px\"><h3>Say, boya ve anlat</h3><p>Ela, Mavi ve Bay Numara ile sayı vagonlarını boya. Daireleri say; seçtiğin sayıyı ve rengi tam cümleyle söyle.</p><p><a class=\"button\" href=\"say_ve_boya_A4.pdf\" target=\"_blank\" rel=\"noopener\">Boyama sayfasını yazdır · A4 PDF ↗</a></p><a href=\"say_ve_boya_A4.pdf\" target=\"_blank\" rel=\"noopener\"><img src=\"boyama_onizleme.png\" alt=\"Ela, Mavi, Bay Numara ve birden ona kadar sayı vagonları bulunan boyama sayfası\" style=\"display:block;max-width:100%;width:440px;height:auto;margin:16px auto;border:1px solid #bbb;background:white\"></a></section>")}
+
+function wordsearch(){const host=$('#activity');host.innerHTML='<p><a class="button secondary" href="kelime_bulmaca.html" target="_blank" rel="noopener">Bulmacayı ayrı ekranda aç ↗</a></p><iframe id="numberPuzzle" title="Şenlikte sözcük avı" src="kelime_bulmaca.html" style="width:100%;height:1450px;border:0;display:block"></iframe>';const frame=$('#numberPuzzle');frame.onload=()=>{const main=frame.contentDocument.querySelector('main');const fit=()=>frame.style.height=Math.ceil(main.getBoundingClientRect().height+35)+'px';fit();const observer=new ResizeObserver(fit);observer.observe(main)}}
+
+function writing(){return '<img class="scene" src="senlik_resmi.png" alt="Şenlik treninin yanında Ela, Mavi ve Bay Numara; sayılacak on nesne grubu"><div class="writing-grid">'+['Bizim vagonumuzda…','Toplam biletimiz…','Kontrol etmek için…'].map((s,i)=>'<label>'+s+'<textarea data-draft="'+i+'">'+esc(state.notes['draft'+i]||'')+'</textarea></label>').join('')+'</div><p>Grup çizimleri ve onluk deste alanları için yukarıdaki A4 atölye formunu kullanın.</p>'}
+
+function render(){const advanced=D.mode==='advanced';const all=advanced?D.advanced:D.stages;state.stage=Math.max(0,Math.min(all.length-1,state.stage));const s=all[state.stage];$('#steps').innerHTML=all.map((a,i)=>'<button data-stage="'+i+'" aria-current="'+(i===state.stage?'step':'false')+'">'+(state.done.includes((advanced?'adv-':'')+a.id)?'✓ ':'')+(i+1)+'. '+esc(a.title)+'<small>Tahmini '+(advanced?a.time:a.time.join('–'))+' dakika</small></button>').join('');document.querySelectorAll('[data-stage]').forEach(b=>b.onclick=()=>go(Number(b.dataset.stage)));
+
+ if($('#stageCount'))$('#stageCount').textContent=(state.stage+1)+'. AŞAMA / '+all.length;$('#title').textContent=s.title;$('#estimate').textContent='Tahmini '+(advanced?s.time:s.time.join('–'))+' dakika';$('#goal').textContent=s.goal;$('#instructions').innerHTML=s.steps.map(x=>'<li>'+esc(x)+'</li>').join('');$('#resources').innerHTML=advanced?'<a class="button" href="'+s.form+'" target="_blank" rel="noopener">Öğrenci formunu yazdır · A4 PDF ↗</a>':materialLinks([...new Set([...s.materials,'notlar'])]);$('#note').value=state.notes[(advanced?'adv-':'')+s.id]||'';$('#evidence').textContent=advanced?'Öğrencinin sorusu, gerekçesi ve tam cümle kullanımı üzerinden kısa not alın.':s.evidence;$('#complete').textContent=state.done.includes((advanced?'adv-':'')+s.id)?'✓ Aşama tamamlandı':'Aşamayı tamamla';$('#previous').disabled=state.stage===0;$('#next').disabled=state.stage===all.length-1;$('#activity').replaceChildren();
+
+ if(advanced){$('#task').hidden=false;$('#task').textContent=s.task;$('#support').hidden=false;$('#supportText').textContent=s.support;$('#sampleText').textContent=s.sample;
+
+  if(s.id==='okuma-dikte')window.renderReadingDictation($('#activity'));else if(s.id==='extra')bindCards(D.extra);else if(s.id==='order')$('#activity').innerHTML='<h3>Birer mi, onar mı?</h3>'+['Birer say: 4, …, 6','Birer say: …, 8, …','Onar say: 20, …, 40','Onar say: …, 70, …','5 ile 7 arasında hangi sayı var?'].map(q=>'<div class="exercise-card">'+esc(q)+'</div>').join('')+'<p>Cevabını söyle; ardından A4 formunda kendi ipucunu yaz.</p>';else if(s.id==='reading')$('#activity').innerHTML='<table><thead><tr><th>Rol</th><th>Replik</th></tr></thead><tbody>'+D.reading.map(l=>'<tr><th>'+esc(D.roles[l.speaker])+'</th><td>'+esc(l.text)+'</td></tr>').join('')+'</tbody></table>';else $('#activity').innerHTML='<div class="exercise-card"><h3>Öğrenci görevi</h3><p>'+esc(s.task)+'</p><p>Yukarıdaki A4 bağlantısı etkinliğe özel çalışma formunu açar.</p></div>';
+
+ }else{
+
+ $('#task').hidden=true;$('#support').hidden=true;
+
+ if(s.activity==='cards'||s.activity==='share')bindCards(D.cards);
+
+ if(s.activity==='share')$('#activity').insertAdjacentHTML('afterbegin','<img class="scene" src="senlik_resmi.png" alt="Sayılabilir nesne grupları olan şenlik resmi"><h3>Bizim vagonumuzda kaç tane var?</h3><p>Nasıl saydınız? Hata olsaydı nasıl kontrol ederdiniz?</p>');
+
+ if(s.activity==='story'){$('#activity').innerHTML=media('story')+'<div class="tools"><button id="storyStart">Hikâyeyi başlat</button><button id="practice">Hikâye sonrası sayı oyunları</button><button class="secondary" id="resetStops">Soru duraklarını sıfırla</button></div><label class="check"><input type="checkbox" id="autoStops" checked>Soru duraklarında otomatik dur</label><div id="prompt" class="prompt" hidden><h3 id="questionText"></h3><p id="followup"></p><button id="answer">Örnek cevap</button><p id="expected" hidden></p><button id="resume">Videoya devam</button></div>';setupStory()}
+
+ if(s.activity==='song'){$('#activity').innerHTML='<p>Şarkı aşağıda hazır. Oynat düğmesine basın; sayı söylenince çocuklar kartı göstersin ve ritme katılsın.</p><iframe id="numberSongFrame" title="Şarkı ve hareket · Ela, Mavi ve Bay Numara" src="sarki_izle.html" style="width:100%;height:650px;border:0;display:block"></iframe>';const frame=$('#numberSongFrame');frame.onload=()=>{const body=frame.contentDocument.body;const fit=()=>frame.style.height=Math.ceil(body.getBoundingClientRect().height+20)+'px';fit();const observer=new ResizeObserver(fit);observer.observe(body)}}
+
+ if(s.activity==='guess')window.startNumberGuess($('#activity'));if(s.activity==='matching')matching();if(s.activity==='wordsearch')wordsearch();if(s.activity==='workshop')$('#activity').innerHTML=writing();if(s.activity==='exit')$('#activity').innerHTML='<h3>En sevdiğin sayı hangisi? Neden?</h3><p>Seçtiğin miktarı çiz; sonra “Burada … tane … var.” cümlesini kur.</p><div class="hero-strip">'+['ela','mavi','bay_numara'].map(r=>'<figure><img src="'+r+'.png" alt="'+D.roles[r]+'"><figcaption>'+D.roles[r]+'</figcaption></figure>').join('')+'</div><p>A4 çıkış bileti her sayfada iki öğrenci için hazırlanmıştır.</p>';
+
+ }
+
+ document.querySelectorAll('[data-draft]').forEach(t=>t.oninput=()=>{state.notes['draft'+t.dataset.draft]=t.value;save()});tick();save()}
+
+$('#note').oninput=()=>{const a=D.mode==='advanced'?D.advanced:D.stages;state.notes[(D.mode==='advanced'?'adv-':'')+a[state.stage].id]=$('#note').value;save()};$('#complete').onclick=()=>{const a=D.mode==='advanced'?D.advanced:D.stages,k=(D.mode==='advanced'?'adv-':'')+a[state.stage].id;state.done=state.done.includes(k)?state.done.filter(x=>x!==k):[...state.done,k];save();render()};$('#previous').onclick=()=>go(state.stage-1);$('#next').onclick=()=>go(state.stage+1);$('#timer').onclick=()=>{if(running){commit();running=false}else{started=Date.now();running=true}$('#timer').textContent=running?'Süreyi durdur':'Süreyi başlat';tick()};$('#export').onclick=()=>{commit();download('sayilar-ogretmen-notlari.json',{lesson:'Sayılar',date:new Date().toISOString(),...state})};$('#fullscreen').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen?.();else document.documentElement.requestFullscreen?.().catch(()=>{})};$('#projection').onclick=()=>{document.body.classList.toggle('projection');$('#projection').textContent=document.body.classList.contains('projection')?'Öğretmen görünümü':'Sunum görünümü'};$('#reset').onclick=()=>{if(!confirm('Bu dersteki notlar ve aşama ilerlemesi sıfırlansın mı?'))return;running=false;state={stage:0,notes:{},done:[],elapsed:{},visibility:{},seen:[]};save();render()};
+
+
+
+if(D.mode==='core'&&location.hash==='#bulmaca')state.stage=D.stages.findIndex(x=>x.id==='wordsearch');
+
+if(D.mode==='core'&&location.hash==='#tahmin')state.stage=D.stages.findIndex(x=>x.id==='guess');
+
+setInterval(tick,1000);window.addEventListener('beforeunload',commit);render();
+
+
+
